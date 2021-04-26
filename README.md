@@ -1,6 +1,6 @@
 # Algorithm-Grind
 
-Repo mainly containing Leetcode and CodeForces problems along
+Repo mainly containing https://cses.fi and CodeForces problems along
 with some of my own explaintations and notes for each module.
 I even use clrs for few algorithms
 
