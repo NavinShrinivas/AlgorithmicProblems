@@ -10,7 +10,7 @@ practice a decent amount of problems for each module
 Algorithms are written in C++
 problems are solved in both C and C++
 
-Module-1 Sorting
+Module-1 Sorting :
 -----------------
 <b>Links used:</b>
 
@@ -25,3 +25,6 @@ Module-1 Sorting
     - Quick Sort
     - Heap Sort
     - Counting Sort
+Problems Pathway :
+------------------
+1)First solving the "Introductory Problems" from [here](https://cses.fi/problemset/list/)

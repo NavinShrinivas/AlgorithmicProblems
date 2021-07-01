@@ -15,4 +15,12 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+    ll k;cin>>k;
+    ll m=1;
+    while(m<=k)
+    {
+        ll ans=(((m*m)-1)*(m*m)/2)-(4*(m-1)*(m-2));
+        cout<<ans<<"\n";
+        m++;    
+    }
 }
