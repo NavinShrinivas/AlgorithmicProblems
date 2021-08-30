@@ -4,6 +4,8 @@
 typedef long long int ll;
 #define intlimit 2147483647;
 using namespace std;
+#define loop(n) for(int i=0;i<n;i++);
+#define maploop(m) for(auto it=m.begin();it!=m.end();it++);
 
 // void swap(int a[],int i,int j)
 // {
