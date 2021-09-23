@@ -2,7 +2,7 @@
 
 void queuepush(int* queue , int* top , int* front,int e)
 {
-    if(*top == QUEUESIZE-1)
+    if((*top)+1==*front || (*top == QUEUESIZE-1 && *front==0))
     {
         printf("Queue Overflow!!\n");
         return;
@@ -16,11 +16,8 @@ void queuepush(int* queue , int* top , int* front,int e)
         return;
     }
     else{
-        *top=*top+1;
+        *top=((*top)+1)%QUEUESIZE;
         *(queue+*top)=e;
-        printf("Element with values %d pushed to back of queue.\n",*(queue+*top));
-        return;
-
     }
 }
 
@@ -42,6 +39,8 @@ void queuepop(int* queue,int* top , int* front)
     {
         printf("Popped %d from queue\n",*(queue+*front));
         *front=*front+1;
+        if(*front==QUEUESIZE)
+            *front=*front%QUEUESIZE;
     }
 }
 
@@ -56,7 +55,13 @@ void queuedisplay(int* queue , int* top, int* front)
 {
     int end=*top;
     printf("Start of queue ->");
-    for(int i=*front;i<=end;i++)
-        printf("%d ->",*(queue+i));
+    int i=*front;
+    while(i!=end+1)
+    {
+        printf("%d->",*(queue+i));
+        i+=1;
+        if(i==QUEUESIZE && *top < *front)
+            i=i%QUEUESIZE;
+    }
     printf("End of queue\n");
 }
