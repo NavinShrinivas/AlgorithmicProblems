@@ -15,3 +15,4 @@ struct node{
 void insertnode(struct head* top , int pos , int value);
 void displaylist(struct head* top);
 void deletenode(struct head* top,int pos);
+void revlist(struct head* top);

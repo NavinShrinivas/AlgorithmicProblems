@@ -1,4 +1,5 @@
 #include"1_1.h"
+#include <stdio.h>
 
 int main(){
     struct head* top = (struct head*)malloc(sizeof(struct head));
@@ -12,7 +13,8 @@ int main(){
         printf("5.Delete node from between[indexing from 0]\n");
         printf("6.Delete node from end\n");
         printf("7.Display the node\n");
-        printf("8.Exit\n");
+        printf("8.Reverse the list\n");
+        printf("9.Exit");
         printf("Enter choice : ");
         int choice;
         scanf("%d",&choice);
@@ -57,6 +59,8 @@ int main(){
         else if(choice == 7)
             displaylist(top);
         else if(choice == 8)
+            revlist(top);
+        else if(choice == 9)
             return 0;
 
 

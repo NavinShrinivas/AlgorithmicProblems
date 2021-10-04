@@ -143,3 +143,39 @@ void deletenode(struct head* top , int pos)
 
     }
 }
+
+void revlist(struct head* top)
+{
+    if(top->link->link == NULL)
+        return; //only one node , nothing to reverse
+    else{
+        struct node* curr = top->link;
+        struct node* next = curr->link;
+        curr->link = NULL;//the first node is becoming last
+        while(next->link!=NULL){
+            struct node* nextcurr = next;
+            struct node* nextnext = next->link;
+            next->link=curr;
+            next=nextnext;
+            curr=nextcurr;
+        }
+        next->link = curr;
+        top->link=next;//the last node becoming first
+        printf("\n-------------------------------------------------\n");
+        printf("Linked list reversed :))!");
+        printf("\n-------------------------------------------------\n");
+
+    }
+}
+
+/*
+ *void catlist(struct head* list1 , struct head* list 2){
+ *struct node* temp = list1->link;
+ *while(temp->link!=NULL){
+ *temp=temp->link;
+ *}
+ *temp->link=list2->link;
+ *printf(“Two lists have be concatnated”);
+ *return;
+ *} 
+ */
