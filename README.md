@@ -27,4 +27,4 @@ Module-1 Sorting :
     - Counting Sort
 Problems Pathway :
 ------------------
-1)First solving the "Introductory Problems" from [here](https://cses.fi/problemset/list/)
+[here](https://cses.fi/problemset/list/)
