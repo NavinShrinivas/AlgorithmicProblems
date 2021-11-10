@@ -54,7 +54,7 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
 
   struct sp_mat *curr = meta;
   // build head cols
-  for (int i = 0; i <= col; i++) {
+  for (int i = 0; i < col; i++) {
     struct sp_mat *temp = (struct sp_mat *)malloc(sizeof(struct sp_mat));
     temp->row = -1;
     temp->col = -1;
@@ -64,7 +64,7 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
 
   curr = meta;
   // build head row
-  for (int i = 0; i <= col; i++) {
+  for (int i = 0; i < row; i++) {
     struct sp_mat *temp = (struct sp_mat *)malloc(sizeof(struct sp_mat));
     temp->row = -1;
     temp->col = -1;
@@ -84,29 +84,32 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
         if (i == 0 && j == 0) {
           meta->down->right = datanode;
           meta->right->down = datanode;
-        } else if (i == 0) {
-          curr = meta->down;
-          int coli = 0;
-          while (coli != j + 1 && curr != NULL) {
-            curr = curr->right;
-            coli++;
-          }
-          if (curr != NULL)
-            curr->down = datanode;
-        } else if (j == 0) {
-          printf("hoola %d %d", i, j);
-          curr = meta->right;
-          int rowi = 0;
-          while (rowi != i + 1 && curr != NULL) {
-            curr = curr->down;
-            rowi++;
-          }
-          if (curr != NULL)
-            curr->right = datanode;
-
-        } else {
+        }
+        /*
+         *        else if (i == 0) {
+         *          curr = meta->down;
+         *          int coli = 0;
+         *          while (coli != j & curr != NULL) {
+         *            curr = curr->right;
+         *            coli++;
+         *          }
+         *          if (curr != NULL)
+         *            curr->right = datanode;
+         *        } else if (j == 0) {
+         *          curr = meta->right;
+         *          int rowi = 0;
+         *          while (rowi != i && curr != NULL) {
+         *            curr = curr->down;
+         *            rowi++;
+         *          }
+         *          if (curr != NULL)
+         *            curr->right = datanode;
+         *
+         *        }
+         */
+        else {
           // check if anything from top need to refrence this node :
-          if (arr[i - 1][j] != 1) {
+          if (i != 0 && arr[i - 1][j] != 1) {
             // going down first , then right
             curr = meta;
             int rowi = 0, coli = 0;
@@ -114,25 +117,30 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
               curr = curr->down;
               rowi++;
             }
+            if (j == 0)
+              curr->right = datanode;
             while (coli != j + 1 && curr != NULL) {
               curr = curr->right;
               coli++;
             }
             // if curr ends up as NULL meaning this 0 will never be part of the
             // path
-            if (curr != NULL)
+            if (curr != NULL) {
               curr->down = datanode;
+              datanode->down = NULL;
+            }
           }
           // check if anything from left need to refrence this node :
-          if (arr[i][j - 1] != 1) {
+          if (j != 0 && arr[i][j - 1] != 1) {
             // going right first , then down
-            printf("heela %d %d", i, j);
             curr = meta;
             int rowi = 0, coli = 0;
             while (coli != j && curr != NULL) {
               curr = curr->right;
               coli++;
             }
+            if (i == 0)
+              curr->down = datanode;
             while (rowi != i + 1 && curr != NULL) {
               curr = curr->down;
               rowi++;

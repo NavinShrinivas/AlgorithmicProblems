@@ -16,7 +16,6 @@ int main() {
 
   // testing sparce generator :,(
   metadata = metadata->down->down;
-  printf("%d", metadata->col);
   while (metadata != NULL) {
     printf("%d", metadata->col);
     metadata = metadata->right;
