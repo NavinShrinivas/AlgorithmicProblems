@@ -11,6 +11,8 @@ struct sp_mat {
   int col;
   struct sp_mat *right;
   struct sp_mat *down;
+  bool visited_right;
+  bool visited_down;
 };
 
 struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]);
@@ -28,3 +30,4 @@ struct head {
 void pushe(struct head *head, struct sp_mat *d);
 void pope(struct head *head);
 void displaystack(struct head *head);
+struct sp_mat *peek(struct head *head);

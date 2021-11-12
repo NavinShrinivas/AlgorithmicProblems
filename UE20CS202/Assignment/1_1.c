@@ -51,13 +51,16 @@ struct sp_mat *peek(struct head *head) {
 
 struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
   struct sp_mat *meta = (struct sp_mat *)malloc(sizeof(struct sp_mat));
-
+  meta->row = -1;
+  meta->col = -1;
   struct sp_mat *curr = meta;
   // build head cols
   for (int i = 0; i < col; i++) {
     struct sp_mat *temp = (struct sp_mat *)malloc(sizeof(struct sp_mat));
     temp->row = -1;
     temp->col = -1;
+    temp->visited_down = false;
+    temp->visited_right = false;
     curr->right = temp;
     curr = curr->right;
   }
@@ -68,6 +71,8 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
     struct sp_mat *temp = (struct sp_mat *)malloc(sizeof(struct sp_mat));
     temp->row = -1;
     temp->col = -1;
+    temp->visited_down = false;
+    temp->visited_right = false;
     curr->down = temp;
     curr = curr->down;
   }
@@ -79,74 +84,49 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
             (struct sp_mat *)malloc(sizeof(struct sp_mat));
         datanode->row = i;
         datanode->col = j;
+        datanode->visited_down = false;
+        datanode->visited_right = false;
         datanode->right = NULL;
         datanode->down = NULL;
         if (i == 0 && j == 0) {
           meta->down->right = datanode;
           meta->right->down = datanode;
-        }
-        /*
-         *        else if (i == 0) {
-         *          curr = meta->down;
-         *          int coli = 0;
-         *          while (coli != j & curr != NULL) {
-         *            curr = curr->right;
-         *            coli++;
-         *          }
-         *          if (curr != NULL)
-         *            curr->right = datanode;
-         *        } else if (j == 0) {
-         *          curr = meta->right;
-         *          int rowi = 0;
-         *          while (rowi != i && curr != NULL) {
-         *            curr = curr->down;
-         *            rowi++;
-         *          }
-         *          if (curr != NULL)
-         *            curr->right = datanode;
-         *
-         *        }
-         */
-        else {
+        } else {
           // check if anything from top need to refrence this node :
           if (i != 0 && arr[i - 1][j] != 1) {
             // going down first , then right
             curr = meta;
             int rowi = 0, coli = 0;
-            while (rowi != i && curr != NULL) {
+            while (rowi != i && curr->down != NULL) {
               curr = curr->down;
               rowi++;
             }
             if (j == 0)
-              curr->right = datanode;
-            while (coli != j + 1 && curr != NULL) {
+              curr->down->right = datanode;
+            while (coli != j + 1 && curr->right != NULL) {
               curr = curr->right;
               coli++;
             }
             // if curr ends up as NULL meaning this 0 will never be part of the
             // path
-            if (curr != NULL) {
-              curr->down = datanode;
-              datanode->down = NULL;
-            }
+            curr->down = datanode;
           }
           // check if anything from left need to refrence this node :
           if (j != 0 && arr[i][j - 1] != 1) {
             // going right first , then down
             curr = meta;
             int rowi = 0, coli = 0;
-            while (coli != j && curr != NULL) {
+            while (coli != j && curr->right != NULL) {
               curr = curr->right;
               coli++;
             }
             if (i == 0)
-              curr->down = datanode;
-            while (rowi != i + 1 && curr != NULL) {
+              curr->right->down = datanode;
+            while (rowi != i + 1 && curr->down != NULL) {
               curr = curr->down;
               rowi++;
             }
-            if (curr != NULL)
-              curr->right = datanode;
+            curr->right = datanode;
           }
         }
       }
