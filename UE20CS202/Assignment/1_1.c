@@ -45,8 +45,20 @@ void pope(struct head *head) {
 struct sp_mat *peek(struct head *head) {
   if (head->top == -1)
     return NULL;
-  else
-    return head->link->data;
+  else {
+    struct node *curr = head->link;
+    while (curr->link != NULL)
+      curr = curr->link;
+    return curr->data;
+  }
+}
+
+void FlushStack(struct head *head, FILE *fp) {
+  struct node *curr = head->link;
+  while (curr != NULL) {
+    fprintf(fp, "%d %d \n", curr->data->row, curr->data->col);
+    curr = curr->link;
+  }
 }
 
 struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
@@ -91,43 +103,59 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
         if (i == 0 && j == 0) {
           meta->down->right = datanode;
           meta->right->down = datanode;
-        } else {
-          // check if anything from top need to refrence this node :
-          if (i != 0 && arr[i - 1][j] != 1) {
-            // going down first , then right
-            curr = meta;
-            int rowi = 0, coli = 0;
-            while (rowi != i && curr->down != NULL) {
-              curr = curr->down;
-              rowi++;
-            }
-            if (j == 0)
-              curr->down->right = datanode;
-            while (coli != j + 1 && curr->right != NULL) {
-              curr = curr->right;
-              coli++;
-            }
-            // if curr ends up as NULL meaning this 0 will never be part of the
-            // path
-            curr->down = datanode;
+        }
+        if (i == 0 && j != 0) {
+          int fakej = 0;
+          curr = meta;
+          while (fakej != j + 1) {
+            curr = curr->right;
+            fakej++;
           }
-          // check if anything from left need to refrence this node :
-          if (j != 0 && arr[i][j - 1] != 1) {
-            // going right first , then down
-            curr = meta;
-            int rowi = 0, coli = 0;
-            while (coli != j && curr->right != NULL) {
-              curr = curr->right;
-              coli++;
-            }
-            if (i == 0)
-              curr->right->down = datanode;
-            while (rowi != i + 1 && curr->down != NULL) {
-              curr = curr->down;
-              rowi++;
-            }
+          curr->down = datanode;
+        }
+        if (j == 0 && i != 0) {
+          int fakei = 0;
+          curr = meta;
+          while (fakei != i + 1) {
+            curr = curr->down;
+            fakei++;
+          }
+          curr->right = datanode;
+        }
+        // link from left
+        if (j != 0) {
+          int fakej = 0, fakei = 0;
+          curr = meta;
+          while (fakei != i + 1 && curr->down != NULL) {
+            curr = curr->down;
+            fakei++;
+          }
+          while (fakej != j && curr->right != NULL) {
+            curr = curr->right;
+            fakej++;
+          }
+          if (arr[i][j - 1] == 1 && fakej == 0)
             curr->right = datanode;
+          else if (arr[i][j - 1] == 0 && curr != NULL)
+            curr->right = datanode;
+        }
+        // link from top
+        if (i != 0) {
+          int fakej = 0, fakei = 0;
+          curr = meta;
+          while (fakej != j + 1 && curr->right != NULL) {
+            curr = curr->right;
+            fakej++;
           }
+
+          while (fakei != i && curr->down != NULL) {
+            curr = curr->down;
+            fakei++;
+          }
+          if (arr[i - 1][j] == 1 && fakei == 0)
+            curr->down = datanode;
+          else if (arr[i - 1][j] == 0 && curr != NULL)
+            curr->down = datanode;
         }
       }
     }

@@ -31,3 +31,4 @@ void pushe(struct head *head, struct sp_mat *d);
 void pope(struct head *head);
 void displaystack(struct head *head);
 struct sp_mat *peek(struct head *head);
+void FlushStack(struct head *head, FILE *fp);
