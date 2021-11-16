@@ -4,20 +4,23 @@
 int main() {
   // input is read from file using file redirection in terminal
   // written to file in the end
-  printf(
-      "Please give input file using redirection operator (<) if not given! \n");
-  fflush(stdout);
   int st_row, st_col, dt_row, dt_col;
+  printf("Enter file name : ");
+  fflush(stdout);
+  char fname[100];
+  scanf("%[^\n]*c", fname);
+  FILE *readfp = fopen(fname, "r");
+  fscanf(readfp, "%d %d", &st_row, &st_col);
+  fscanf(readfp, "%d %d", &dt_row, &dt_col);
+  fflush(stdout);
   // dt are going to be used as array size as the input does
   // not mention it!!! Im very certain it has to be given.
   FILE *fp = fopen("./output.txt", "w+");
-  scanf("%d %d", &st_row, &st_col);
-  scanf("%d %d", &dt_row, &dt_col);
   int map[dt_row + 1][dt_col + 1];
 
   for (int i = 0; i <= dt_row; i++)
     for (int j = 0; j <= dt_col; j++)
-      scanf("%d", (*(map + i) + j));
+      fscanf(readfp, "%d", (*(map + i) + j));
   struct sp_mat *metadata = GenerateSparceMatrix(dt_row + 1, dt_col + 1, map);
 
   // below is testing my sparce matrix
