@@ -36,7 +36,7 @@ int main() {
 
   while (stack->top >= 0) {
     struct sp_mat *work = peek(stack);
-    printf("%d %d \n", work->row, work->col);
+    printf("%d %d\n", work->row, work->col);
     if (work->row == dt_row && work->col == dt_col) {
       flag = 1;
       break;
@@ -45,12 +45,20 @@ int main() {
     } else if (work->visited_right == true && work->visited_down == true) {
       pope(stack);
     } else if (work->right != NULL && work->visited_right == false) {
-      fflush(stdout);
-      pushe(stack, work->right);
-      work->visited_right = true;
+      if (work->right->col != work->col + 1) {
+        work->right = NULL;
+      } else {
+        fflush(stdout);
+        pushe(stack, work->right);
+        work->visited_right = true;
+      }
     } else if (work->down != NULL && work->visited_down == false) {
-      pushe(stack, work->down);
-      work->visited_down = true;
+      if (work->down->row != work->row + 1) {
+        work->down = NULL;
+      } else {
+        pushe(stack, work->down);
+        work->visited_down = true;
+      }
     }
     if (work->down == NULL)
       work->visited_down = true;

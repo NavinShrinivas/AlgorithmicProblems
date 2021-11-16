@@ -135,7 +135,9 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
             curr = curr->right;
             fakej++;
           }
-          if (curr != NULL) {
+          if (arr[i][j - 1] == 1 && fakej == 0)
+            curr->right = datanode;
+          else if (curr != NULL && curr->row == i) {
             curr->right = datanode;
             link = 1;
           }
@@ -150,8 +152,9 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
             curr = curr->down;
             fakei++;
           }
-
-          if (curr != NULL)
+          if (arr[i][j - 1] == 1 && fakej == 0)
+            curr->right = datanode;
+          else if (curr != NULL && curr->row == i)
             curr->right = datanode;
         }
         // link from top
@@ -168,7 +171,9 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
             curr = curr->down;
             fakei++;
           }
-          if (curr != NULL) {
+          if (arr[i - 1][j] == 1 && fakei == 0)
+            curr->down = datanode;
+          else if (curr != NULL && curr->col == j) {
             curr->down = datanode;
             link = 1;
           }
@@ -184,7 +189,9 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
             curr = curr->right;
             fakej++;
           }
-          if (curr != NULL) {
+          if (arr[i - 1][j] == 1 && fakei == 0)
+            curr->down = datanode;
+          else if (curr != NULL && curr->col == j) {
             curr->down = datanode;
             link = 1;
           }
