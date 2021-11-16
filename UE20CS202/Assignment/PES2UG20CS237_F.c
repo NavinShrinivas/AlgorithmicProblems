@@ -107,7 +107,7 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
         if (i == 0 && j != 0) {
           int fakej = 0;
           curr = meta;
-          while (fakej != j + 1) {
+          while (fakej != j + 1 && curr != NULL) {
             curr = curr->right;
             fakej++;
           }
@@ -116,7 +116,7 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
         if (j == 0 && i != 0) {
           int fakei = 0;
           curr = meta;
-          while (fakei != i + 1) {
+          while (fakei != i + 1 && curr != NULL) {
             curr = curr->down;
             fakei++;
           }
@@ -124,6 +124,7 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
         }
         // link from left
         if (j != 0) {
+          int link = 0;
           int fakej = 0, fakei = 0;
           curr = meta;
           while (fakei != i + 1 && curr->down != NULL) {
@@ -136,13 +137,30 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
           }
           if (arr[i][j - 1] == 1 && fakej == 0)
             curr->right = datanode;
-          else if (curr->row == i && curr->col == j - 1)
-            if (arr[i][j - 1] == 0 && curr != NULL)
-              curr->right = datanode;
+          else if (curr != NULL && curr->row == i) {
+            curr->right = datanode;
+            link = 1;
+          }
+          fakej = 0;
+          fakei = 0;
+          curr = meta;
+          while (fakej != j && curr->right != NULL) {
+            curr = curr->right;
+            fakej++;
+          }
+          while (fakei != i + 1 && curr->down != NULL) {
+            curr = curr->down;
+            fakei++;
+          }
+          if (arr[i][j - 1] == 1 && fakej == 0)
+            curr->right = datanode;
+          else if (curr != NULL && curr->row == i)
+            curr->right = datanode;
         }
         // link from top
         if (i != 0) {
           int fakej = 0, fakei = 0;
+          int link = 0;
           curr = meta;
           while (fakej != j + 1 && curr->right != NULL) {
             curr = curr->right;
@@ -155,12 +173,32 @@ struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
           }
           if (arr[i - 1][j] == 1 && fakei == 0)
             curr->down = datanode;
-          else if (curr->row == i - 1 && curr->col == j)
-            if (arr[i - 1][j] == 0 && curr != NULL)
-              curr->down = datanode;
+          else if (curr != NULL && curr->col == j) {
+            curr->down = datanode;
+            link = 1;
+          }
+
+          fakej = 0;
+          fakei = 0;
+          curr = meta;
+          while (fakei != i && curr->down != NULL) {
+            curr = curr->down;
+            fakei++;
+          }
+          while (fakej != j + 1 && curr->right != NULL) {
+            curr = curr->right;
+            fakej++;
+          }
+          if (arr[i - 1][j] == 1 && fakei == 0)
+            curr->down = datanode;
+          else if (curr != NULL && curr->col == j) {
+            curr->down = datanode;
+            link = 1;
+          }
         }
       }
     }
   }
+
   return meta;
 }
