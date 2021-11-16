@@ -13,6 +13,7 @@ struct sp_mat {
   struct sp_mat *down;
   bool visited_right;
   bool visited_down;
+  bool hit;
 };
 
 struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]);
