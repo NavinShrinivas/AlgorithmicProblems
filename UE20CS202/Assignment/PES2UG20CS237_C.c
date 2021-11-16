@@ -29,11 +29,13 @@ int main() {
    *}
    */
 
+  // basic stack initialization
   struct head *stack = (struct head *)malloc(sizeof(struct head));
   stack->top = -1;
   pushe(stack, metadata->right->down);
   int flag = 0;
 
+  // Below is path finding algorithm
   while (stack->top >= 0) {
     struct sp_mat *work = peek(stack);
     if (work->row == dt_row && work->col == dt_col) {
@@ -64,6 +66,9 @@ int main() {
     if (work->right == NULL)
       work->visited_right = true;
   }
-  FlushStack(stack, fp);
+  if (stack->top == -1)
+    fprintf(fp, "-1");
+  else
+    FlushStack(stack, fp);
   printf("Output successfully written to output.txt");
 }

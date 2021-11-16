@@ -61,6 +61,7 @@ void FlushStack(struct head *head, FILE *fp) {
   }
 }
 
+// this huge fn build the needed sparce matrix
 struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {
   struct sp_mat *meta = (struct sp_mat *)malloc(sizeof(struct sp_mat));
   meta->row = -1;
