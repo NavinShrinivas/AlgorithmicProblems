@@ -36,6 +36,7 @@ int main() {
 
   while (stack->top >= 0) {
     struct sp_mat *work = peek(stack);
+    printf("%d %d \n", work->row, work->col);
     if (work->row == dt_row && work->col == dt_col) {
       flag = 1;
       break;
