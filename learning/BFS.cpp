@@ -4,6 +4,11 @@ using namespace std;
 
 int main()
 {
+
+    //little queue stuff
+    int queue[QUEUESIZE];
+    int top=-1,front=-1;
+    //------------------
     int m;
     cout<<"enter number of vertices"<<"\n";
     cin>>m;
