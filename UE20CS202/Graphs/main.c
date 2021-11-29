@@ -60,6 +60,11 @@ int main() {
       bool visited[graphvertices] = {false};
       int path[graphvertices] = {0};
       GraphAllPath(a, visited, path, s, d);
+    } else if (choice == 7) {
+      int c, d;
+      printf("Enter two vertices : ");
+      scanf("%d %d", &c, &d);
+      IsConnected(a, c, d);
     } else {
       printf("Buh Byeee :) \n");
       return 0;

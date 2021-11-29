@@ -149,6 +149,7 @@ void IsConnected(int a[][graphvertices], int c, int d) {
   while (top != -1 && front != -1) {
     int s = QueuePeek(queue, &top, &front);
     queuepop(queue, &top, &front);
+    printf(" ->");
     if (s == d) {
       flag = true;
       printf("\n Yup!The node are connected :) \n \n");

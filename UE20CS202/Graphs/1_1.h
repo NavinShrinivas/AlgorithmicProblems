@@ -18,3 +18,4 @@ void queuedisplay(int* queue , int* top, int* front);
 int GraphIndegree(int a[][graphvertices], int v); 
 int GraphOutdegree(int a[][graphvertices], int v); 
 void GraphAllPath(int a[][graphvertices], bool visited[graphvertices],int *path, int s, int d);
+void IsConnected(int a[][graphvertices], int c, int d); 
