@@ -12,6 +12,8 @@ int main() {
     printf("1.Inserted edge to graph \n");
     printf("2.DFS using Recursion \n");
     printf("3.BFS using Queue \n");
+    printf("4.Indegree of a vertice \n");
+    printf("5.Out degree of a vertice \n");
     printf("Enter choice : ");
     int choice;
     scanf("%d", &choice);
@@ -38,6 +40,16 @@ int main() {
       queuepush(queue, &top, &front, j);
       GraphBFS(a, j, queue, &top, &front, visited);
       printf(" End of graph traversal\n \n");
+    } else if (choice == 4) {
+      int v;
+      printf("Enter vertice to find Indegree :  ");
+      scanf("%d", &v);
+      printf(" \n Indegree of %d : %d \n \n", v, GraphIndegree(a, v));
+    } else if (choice == 5) {
+      int v;
+      printf("Enter vertice to find Outdegree :  ");
+      scanf("%d", &v);
+      printf(" \n Outdegree of %d : %d \n \n", v, GraphOutdegree(a, v));
     }
   }
 }

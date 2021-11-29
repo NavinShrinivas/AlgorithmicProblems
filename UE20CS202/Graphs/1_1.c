@@ -79,3 +79,25 @@ void GraphBFS(int a[][graphvertices], int j, int *queue, int *top, int *front,
     }
   }
 }
+
+int GraphIndegree(int a[][graphvertices], int v) {
+  // every edge that point to the vertex, I know this is undirected graph so
+  // both In and Out degree will be the same , but eh!
+  int count = 0;
+  for (int i = 0; i < graphvertices; i++) {
+    if (a[i][v] == 1)
+      count++;
+  }
+  return count;
+}
+
+int GraphOutdegree(int a[][graphvertices], int v) {
+  // every edge that point to the vertex, I know this is undirected graph so
+  // both In and Out degree will be the same , but eh!
+  int count = 0;
+  for (int i = 0; i < graphvertices; i++) {
+    if (a[v][i] == 1)
+      count++;
+  }
+  return count;
+}

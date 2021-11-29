@@ -15,3 +15,5 @@ void queuepush(int* queue , int* top , int* front,int e);
 void queuepop(int* queue,int* top , int* front);
 void queuepeek(int* queue , int* top , int* front);
 void queuedisplay(int* queue , int* top, int* front);
+int GraphIndegree(int a[][graphvertices], int v); 
+int GraphOutdegree(int a[][graphvertices], int v); 

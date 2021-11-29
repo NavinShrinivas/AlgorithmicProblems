@@ -4,7 +4,7 @@
 #include<math.h>
 #include<stdbool.h>
 
-#define STACKSIZE 100
+#define STACKSIZE 10
 
 struct stack{
     int top;
