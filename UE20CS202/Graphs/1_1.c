@@ -61,6 +61,43 @@ void GraphDFS(int a[][graphvertices], bool visited[graphvertices], int j) {
   }
 }
 
+void GraphAllPath(int a[][graphvertices], bool visited[graphvertices],
+                  int *path, int s, int d) {
+  if (visited[s] == true) {
+    return;
+  } else if (s == d) {
+    for (int i = 0; i < graphvertices; i++) {
+      if (path[i] != 0)
+        printf(" %d->", path[i]);
+    }
+    printf("%d\n", d);
+  } else {
+    visited[s] = true;
+    for (int j = 0; j < graphvertices; j++) {
+      if (path[j] == 0) {
+        path[j] = s;
+        break;
+      }
+    }
+    for (int i = 0; i < graphvertices; i++) {
+      if (a[s][i] == 1) {
+        GraphAllPath(a, visited, path, i, d);
+      }
+    }
+  }
+
+  // after done with this vertex , i.e after finding one path , remove from path
+  // and prepare for second path big brain smortness
+  visited[s] = false;
+  int j;
+  for (int j = 0; j < graphvertices; j++) {
+    if (path[j] == s) {
+      path[j] = 0;
+      break;
+    }
+  }
+}
+
 void GraphBFS(int a[][graphvertices], int j, int *queue, int *top, int *front,
               bool visited[graphvertices]) {
   while (*top != -1 && *front != -1) {
@@ -100,4 +137,38 @@ int GraphOutdegree(int a[][graphvertices], int v) {
       count++;
   }
   return count;
+}
+
+void IsConnected(int a[][graphvertices], int c, int d) {
+  bool flag = false;
+  // First using BFS :
+  bool visited[graphvertices] = {false};
+  int queue[QUEUESIZE];
+  int top = -1, front = -1;
+  queuepush(queue, &top, &front, c);
+  while (top != -1 && front != -1) {
+    int s = QueuePeek(queue, &top, &front);
+    queuepop(queue, &top, &front);
+    if (s == d) {
+      flag = true;
+      printf("\n Yup!The node are connected :) \n \n");
+    }
+    for (int i = 0; i < graphvertices; i++) {
+      if (a[s][i] == 1) {
+        if (visited[i] == true)
+          continue;
+        else {
+          queuepush(queue, &top, &front, i);
+          visited[i] = true;
+        }
+      }
+    }
+  }
+  if (!flag) {
+    printf("\n No , they are not connected :( \n \n");
+    return;
+  }
+  return;
+
+  // Using BFs : ahhh you get the idea , imma implement , lator
 }

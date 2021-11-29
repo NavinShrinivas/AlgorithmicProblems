@@ -14,6 +14,8 @@ int main() {
     printf("3.BFS using Queue \n");
     printf("4.Indegree of a vertice \n");
     printf("5.Out degree of a vertice \n");
+    printf("6.Find all paths between two vertices \n");
+    printf("7.Are two vertices connected? \n");
     printf("Enter choice : ");
     int choice;
     scanf("%d", &choice);
@@ -50,6 +52,17 @@ int main() {
       printf("Enter vertice to find Outdegree :  ");
       scanf("%d", &v);
       printf(" \n Outdegree of %d : %d \n \n", v, GraphOutdegree(a, v));
+    } else if (choice == 6) {
+      int s, d;
+      printf("Enter source and destination with space : ");
+      scanf("%d %d", &s, &d);
+      printf("\n All paths between the two vertices : \n\n");
+      bool visited[graphvertices] = {false};
+      int path[graphvertices] = {0};
+      GraphAllPath(a, visited, path, s, d);
+    } else {
+      printf("Buh Byeee :) \n");
+      return 0;
     }
   }
 }
