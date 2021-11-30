@@ -25,8 +25,8 @@ void HeapInsert(int *tree, int d) {
     if (tree[i] == 0) {
       n = i;
       tree[n] = d;
-    } else
-      continue;
+      break;
+    }
   }
   for (int i = n / 2; i >= 1; i--) {
     HeapifyMax(tree, i, n);
