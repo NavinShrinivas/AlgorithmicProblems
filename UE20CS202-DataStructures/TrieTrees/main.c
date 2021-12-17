@@ -1,5 +1,5 @@
 // big plans for trie tree , i wanna do "browser search result" where
-// priority is higher for strings that were inserted first, littul simpler
+// the search results are in no proiortiy, littul simpler
 // implmentation Ill also demo how power trie trees are by handliong 10000
 // entries
 
@@ -13,15 +13,18 @@ int main() {
   }
   root->end = false;
   bool file_flag = true; // purely for the 10000 input demo
-  printf("File operations [Y/n]: ");
-  char op;
-  scanf("%c", &op);
-  if ((int)op == 89) // string operations can go to hell
-    file_flag = true;
-  else
-    file_flag = false;
-
-  if (!file_flag) {
+  /*
+   *printf("File operations [Y/n]: ");
+   *char op;
+   *scanf("%c", &op);
+   *if ((int)op == 89) // string operations can go to hell
+   *  file_flag = true;
+   *else
+   *  file_flag = false;
+   */
+  // im ditching this file operatins part,but the search engine searching
+  // work!!!!!!!
+  if (file_flag) {
     printf(
         "NOTE : THIS TRIE IMPL CAN NOT HANDLE CAPITAL LETTERS , also one can "
         "modify the code to do it,not hard \n");
@@ -44,6 +47,11 @@ int main() {
         printf("Enter string : ");
         scanf("\t%[^\n]%*c", str);
         TrieTreeExactMatch(root, str);
+      } else if (choice == 4) {
+        char str[10000]; // assumption that string wont be longer than 10000
+        printf("Enter string : ");
+        scanf("\t%[^\n]%*c", str);
+        TrieTreeSearchEngine(root, str);
       }
     }
   }

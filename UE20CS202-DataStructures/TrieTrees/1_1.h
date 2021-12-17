@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 #include<stdbool.h>
-
+#include<string.h>
 
 //doing for string, meaning a string can have connection to 26[max] nodes
 //one indicator for end of string char as well
@@ -26,3 +26,4 @@ struct node{
 };
 void TrieTreeInsertIterative(struct node *root, char *str); 
 void TrieTreeExactMatch(struct node *root, char *str); 
+void TrieTreeSearchEngine(struct node *root, char *str); 
