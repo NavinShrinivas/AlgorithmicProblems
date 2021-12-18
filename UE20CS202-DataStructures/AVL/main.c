@@ -16,3 +16,6 @@ int main() {
     }
   }
 }
+
+// NOTES : WIP , as for this course UE20CS202 this AVL code is never gonna be
+// asked, but ill get to it when i have the time , seem like a challenge
