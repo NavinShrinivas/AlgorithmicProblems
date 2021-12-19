@@ -60,6 +60,8 @@ int InorderScuccesor(int *tree, int index) {
       return i / 2;
   }
 }
+// this righrfully is not the entire impl for inorder succesor
+// see the picture in this folder to handle other cases as well
 
 void BSTDelete(int *tree, int d, int index) {
   if (tree[index] == 0) {

@@ -73,7 +73,8 @@ void GraphAllPath(int a[][graphvertices], bool visited[graphvertices],
     printf("%d\n", d);
   } else {
     visited[s] = true;
-    for (int j = 0; j < graphvertices; j++) {
+    for (int j = 0; j < graphvertices;
+         j++) { // nothing fancy , just appending s to end of path
       if (path[j] == 0) {
         path[j] = s;
         break;
@@ -85,12 +86,12 @@ void GraphAllPath(int a[][graphvertices], bool visited[graphvertices],
       }
     }
   }
-
-  // after done with this vertex , i.e after finding one path , remove from path
-  // and prepare for second path big brain smortness
+  // this is during recursive return
+  //  after done with this vertex , i.e after finding one path , remove from
+  //  path and prepare for second path big brain smortness
   visited[s] = false;
   int j;
-  for (int j = 0; j < graphvertices; j++) {
+  for (int j = 0; j < graphvertices; j++) { // removing from end of path
     if (path[j] == s) {
       path[j] = 0;
       break;
