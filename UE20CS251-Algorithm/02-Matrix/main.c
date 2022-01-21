@@ -35,4 +35,16 @@ int main(){
     mul_matrix(n,a,b,mul);
     clock_gettime(CLOCK_REALTIME,&end1);
     printf("time for mul : %lf \n",time_elapsed(start1, end1));
+    
+    printf("Programatically checking multiplication of two identity matrices : \n");
+    int idn_a[n][n],idn_b[n][n],idn_c[n][n];
+    idn_matrix(n,idn_a);
+    idn_matrix(n,idn_b);
+    init_matrix(n,idn_c);
+    mul_matrix(n,idn_a,idn_b,idn_c);
+    disp_matrix(n,idn_a);
+    printf("\n");
+    disp_matrix(n,idn_b);
+    printf("\n");
+    disp_matrix(n,idn_c);
 }
