@@ -33,9 +33,4 @@ int _cmp(char *str1, char *str2, int n) {
   }
 }
 
-int mystrcmp(char *str1, char *str2) {
-  char str3[10000], str4[10000];
-  mystrcpy(str3, str1);
-  mystrcpy(str4, str2);
-  return _cmp(str3, str4, 0);
-}
+int mystrcmp(char *str1, char *str2) { return _cmp(str1, str2, 0); }
