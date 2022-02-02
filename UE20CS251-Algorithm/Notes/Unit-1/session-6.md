@@ -6,7 +6,7 @@
 - tree : node followed by n number of trees or a empty tree.
 - binary tree : node followed by atmost 2 trees or a empty tree.
 
-If the data sctruture is defined by recursion, a recursive function makes
+If the data structure is defined by recursion, a recursive function makes
 it far easier than iterative.
 
 > Tail recursion optimisation.
@@ -16,7 +16,7 @@ it far easier than iterative.
 
 All recursion have an activation record, a stack space
 
-so what does an activation record contain : 
+So what does an activation record contain : 
 - parameters 
 - local variable 
 - temporary varaibles
@@ -90,6 +90,7 @@ Write program with recusion for :
     copy the list, recursive 
     reverse a given list, recursive
 
-//all the above mentioned programs have been coded
-//ok so i saw this new coding style and naming variables in his coding,
+all the above mentioned programs have been coded
+ok so i saw this new coding style and naming variables in his coding,
 imma follow that from today
+

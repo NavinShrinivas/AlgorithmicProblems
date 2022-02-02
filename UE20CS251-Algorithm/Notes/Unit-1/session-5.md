@@ -48,7 +48,7 @@ return
 
 Note : using breaks are a bad idea, use break only for switch conditions
 
-By Dijkstra : structured programming, a algorithmmust have single entry and
+By Dijkstra : structured programming, a algorithm must have single entry and
 a single exit.
 
 - Retuns right most position of occurence of k 
@@ -107,6 +107,3 @@ basic op : comparision
 diff complexity
 best case : 1 
 worst case : n^2 
-
-
-

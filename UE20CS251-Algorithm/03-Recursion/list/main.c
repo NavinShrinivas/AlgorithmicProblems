@@ -50,7 +50,7 @@ int main() {
     } else if (choice == 5) {
 
       printf("Reversing list ...");
-      /*reverse_list(&list);*/
+      reverse_list(&list);
       printf("Done revresing list \n \n");
 
     } else {

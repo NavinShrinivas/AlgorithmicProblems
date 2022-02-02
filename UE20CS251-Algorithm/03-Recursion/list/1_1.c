@@ -44,4 +44,17 @@ void *_copy(node_t *src_) {
 }
 
 void copy_list(list_t *src, list_t *dst) { dst->head_ = _copy(src->head_); }
-/*void reverse_list(list_t *list);*/
+
+void *_reverse(node_t *parent, node_t *child) {
+  if (parent->next_ == NULL) {
+    parent->next_ = child;
+    return parent;
+  }
+  node_t *recurseparent = parent->next_;
+  node_t *recursechild = parent;
+  // above solely for understanding, this copy is not needed.
+  parent->next_ = child;
+  return _reverse(recurseparent, recursechild);
+}
+
+void reverse_list(list_t *list) { list->head_ = _reverse(list->head_, NULL); }
