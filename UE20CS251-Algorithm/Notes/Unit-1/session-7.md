@@ -218,4 +218,23 @@ basic operation : move one disk
 diff case ? : 
 
 
-Sir rage quite :/
+```
+M(n) = 2M(n-1) + 1
+M(0) = 0
+
+M(n) = 2M(n-1)+1
+     = 2[2M(n-2) + 1]+1
+     = 2^2 M(n-2) + 2 + 1
+     = 2^3 M(n-3) + 3 + 2 + 1 
+     ..
+     = 2^i M(n-i) + 1 + 2 +3 + .. + (i+1)th term
+     .. i=n 
+     = 2^n M(n-n) + 1 + 2 + 3 + .. + n
+     = 2^n M(0) + 2^n - 1 
+```
+
+SIRE RAGE QUITE :/
+
+There is one more way to do this, recursion tree.
+
+
