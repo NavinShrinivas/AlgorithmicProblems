@@ -17,5 +17,7 @@ searching and count number of comparisons
 - no continue 
 - single return 
 
-
-
+## Books : 
+Read those damn books!
+- The C programming language 
+- The C puzzle book
