@@ -53,7 +53,7 @@ Can we sort these :
 - given predicate / logic : Yes possible, but we gone follow : 
   - Non decreasing/Ascending 
 
-A simple algorithm to start with :  Find the smallest element 
+A simple algorithm to start with : Find the smallest element 
 ```c
 int find_min(int* a){
   int min = a[0];
