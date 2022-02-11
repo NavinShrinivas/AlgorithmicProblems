@@ -115,7 +115,7 @@ The right way to do this using quick select (quick sort), but we can do using se
 ```c
 void bubblesort(int* a,int n){
   for(int i=0;i<n-1;i++){ //VIMP : observe that n-2
-    for(int j=0;j<n-i-1;i++){
+    for(int j=0;j<n-i-1;j++){
       if(a[j]>a[j+1]) 
         swap(a,j,j+1);
     }
