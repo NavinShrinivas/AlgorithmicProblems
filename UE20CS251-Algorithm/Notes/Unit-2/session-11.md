@@ -94,7 +94,7 @@ bool string_match(int* txt, int* pat,int n,int m){
 ver good question from text book : 
 ![image](./11_1.jpg)
 
-Answer : 5*996,996,2*996
+Answer : 5x996,996,2x996
 
 another one : 
 ![image](./11_2.jpg)

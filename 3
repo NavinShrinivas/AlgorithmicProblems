@@ -28,16 +28,21 @@ int main() {
     cin >> c;
     arr[i] = c;
   }
-  // its given that n value cant go above 20
-  // hence a expnential soltion for creation of one of the bins seem possible
-  // as max size of bin is 2^19 it seems viable
-  if (n == 1)
-    cout << a[0];
-  else if (n == 2)
-    cout << abs(a[1] - a[0]);
-  else {
-    // resaonalble assumption that other bin is atleast of size 1
-    for (int i = 1; i < n - 1; i++) {
+  sort(arr, arr + n);
+  if (n == 1) {
+    cout << arr[0];
+  } else if (n == 2) {
+    cout << arr[1] - arr[0];
+  } else {
+    int l = 0, r = 0;
+    for (int i = n - 1; i >= 0; i--) {
+      if (l <= r)
+        l += arr[i];
+      else
+        r += arr[i];
     }
+    cout << abs(l - r);
   }
 }
+
+// Using greedy approach with sorting, sorting handled by stl library.
