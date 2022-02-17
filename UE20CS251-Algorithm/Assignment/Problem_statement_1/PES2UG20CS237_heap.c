@@ -1,5 +1,5 @@
-// Name:
-// SRN:
+// Name: P K Navin Shrinivas
+// SRN: PES2UG20CS237
 #include "heap.h"
 #include <stdlib.h>
 
