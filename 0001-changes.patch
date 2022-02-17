@@ -1,0 +1,74 @@
+From 844d8e31406fb5151e67931d58ec7c45a0c92613 Mon Sep 17 00:00:00 2001
+From: P K Navin Shirnivas <karupal2002@gmail.com>
+Date: Thu, 17 Feb 2022 10:43:11 +0530
+Subject: [PATCH] changes
+
+---
+ :wq        | 36 ++++++++++++++++++++++++++++++++++++
+ README.md  |  3 +++
+ patch1.txt |  0
+ 3 files changed, 39 insertions(+)
+ create mode 100644 :wq
+ create mode 100644 patch1.txt
+
+diff --git a/:wq b/:wq
+new file mode 100644
+index 0000000..62316af
+--- /dev/null
++++ b/:wq
+@@ -0,0 +1,36 @@
++# Algorithm-Grind
++
++
++hello wodl
++
++Repo mainly containing https://cses.fi and CodeForces problems along
++with some of my own explaintations and notes for each module.
++I even use clrs for few algorithms
++
++This repo aims to be your go to place for learning a algorithms and also
++practice a decent amount of problems for each module
++
++Algorithms are written in C++
++problems are solved in both C and C++
++
++
++Module-1 this is another liner :
++-----------------
++this i commit by 2nd person
++
++<b>Links used:</b>
++
++    https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/
++    www.geeksforgeeks.org
++<b>Sort algorithms I implement:</b>
++
++    - Selection Sort
++    - Bubble Sort
++    - Insertion Sort
++    - Merge Sort
++    - Quick Sort
++    - Heap Sort
++    - Counting Sort
++Problems Pathway :
++------------------
++[here](https://cses.fi/problemset/list/)
+diff --git a/README.md b/README.md
+index ab8e153..62316af 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,8 @@
+ # Algorithm-Grind
+ 
++
++hello wodl
++
+ Repo mainly containing https://cses.fi and CodeForces problems along
+ with some of my own explaintations and notes for each module.
+ I even use clrs for few algorithms
+diff --git a/patch1.txt b/patch1.txt
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.34.1
+

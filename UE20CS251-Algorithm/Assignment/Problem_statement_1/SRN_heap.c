@@ -49,7 +49,7 @@ void insert(heap_t *heap, int key, int *count_ptr) {
       // instead ot carrying the key value through out the tree, we just try and
       // find its right place
       *(count_ptr) += 1;
-      i /= 2; // not outside else cus need to update i only if not found
+      i /= 2; // not outside else, cus need to update i only if not found
     }
   }
   heap->arr[i] = key;

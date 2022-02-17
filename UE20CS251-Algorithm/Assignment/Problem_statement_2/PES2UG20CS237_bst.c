@@ -1,0 +1,169 @@
+// Name: P K Navin Shrinivas
+// SRN: PES2UG20CS237
+#include "bst.h"
+#include <stdlib.h>
+
+/*
+ ** Do not use global variables.
+ ** Mark any functions that you declare in this file that are not in the header
+ *as static
+ ** Do not use static variables
+ ** All occurences of count_ptr indicate that the number of comparison
+ ** operations need to be stored in the location pointed by it
+ ** The implementation can assume it is initialized to 0.
+ */
+
+// Initializes the root of the bst
+void init_bst(bst_t *bst) {
+  // root is going to point to NULL if empty
+  bst->root = NULL;
+}
+
+static node_t *_create_new_node(int key) {
+  node_t *new_node = (node_t *)malloc(sizeof(node_t));
+  new_node->left = NULL;
+  new_node->right = NULL;
+  new_node->key = key;
+  return new_node;
+}
+
+static void _insert(node_t *node, int key, int *count_ptr) {
+  // greater is right, smaller in left
+  if (node->key < key) { // critical operation
+    *(count_ptr) += 1;
+    // needs to check right
+    if (node->right == NULL) { // not critical operation
+      node->right = _create_new_node(key);
+
+    } else {
+      _insert(node->right, key, count_ptr);
+    }
+  } else {
+    // needs to check left
+    *(count_ptr) += 1;
+    if (node->left == NULL) { // not critical operation
+      node->left = _create_new_node(key);
+    } else {
+      _insert(node->left, key, count_ptr);
+    }
+  }
+}
+
+// Inserts element key into the Binary search tree
+// Stores the number of comparisons at the location
+// pointed by count_ptr
+void insert(bst_t *tree, int key, int *count_ptr) {
+  // First need to check if the tree is empty
+  // This is not being considered and critical operations
+  if (tree->root == NULL) {
+    tree->root = _create_new_node(key);
+  } else {
+    // else 'cus multiple return statements not allowed
+    _insert(tree->root, key, count_ptr);
+    // new function created cus recursive solution
+  }
+}
+
+static node_t *_inorder_successor(node_t *node) {
+  node_t *temp = node;
+  while (temp && temp->left != NULL)
+    temp = temp->left;
+  return temp;
+}
+
+static node_t *_delete_node(node_t *node, int key, int *count_ptr) {
+  node_t *res = node;
+  if (node != NULL) {
+    if (key < node->key) {
+      *(count_ptr) += 1;
+      node->left = _delete_node(node->left, key, count_ptr);
+    } else if (key > node->key) {
+      *(count_ptr) += 2;
+      node->right = _delete_node(node->right, key, count_ptr);
+    } else {
+      *(count_ptr) += 2;
+      if (node->right == NULL && node->left == NULL)
+        res = NULL;
+      else if (node->left == NULL) {
+        res = node->right;
+      } else if (node->right == NULL) {
+        res = node->left;
+      } else {
+        node_t *t = _inorder_successor(node->right);
+        node->key = t->key;
+        node->right = _delete_node(node->right, t->key, count_ptr);
+      }
+    }
+  }
+  return res;
+}
+
+// Delete key from the BST
+// Replaces node with in-order successor
+void delete_element(bst_t *tree, int key, int *count_ptr) {
+  if (tree->root != NULL)
+    tree->root = _delete_node(tree->root, key, count_ptr);
+}
+
+int _recursive_search(node_t *node, int key, int *count_ptr) {
+  int res = -1;
+  if (node == NULL)
+    res = -1;
+  else if (node->key == key)
+    res = key;
+  else {
+    if (key < node->key) {
+      *(count_ptr) += 1;
+      res = _recursive_search(node->left, key, count_ptr);
+    } else {
+      *(count_ptr) += 1;
+      res = _recursive_search(node->right, key, count_ptr);
+    }
+  }
+  return res;
+}
+
+// Searches for the element key in the bst
+// Returns the element if found, else -1
+int search(const bst_t *tree, int key, int *count_ptr) {
+  int res;
+  if (tree->root == NULL)
+    res = -1;
+  else
+    res = _recursive_search(tree->root, key, count_ptr);
+  return res;
+}
+
+// Returns the maximum element in the BST
+int find_max(const bst_t *tree, int *count_ptr) {
+  // basically have to return right most node
+  int res = -1;
+  node_t *curr = tree->root;
+  while (curr) {
+    res = curr->key;
+    curr = curr->right;
+  }
+  return res;
+}
+
+static void _delete_all_nodes(node_t *node) {
+  if (node) {
+    if (node->right)
+      _delete_all_nodes(node->right);
+    if (node->right)
+      _delete_all_nodes(node->left);
+    free(node);
+  }
+}
+
+// Deletes all the elements of the bst
+void free_bst(bst_t *bst) {
+  _delete_all_nodes(bst->root);
+  free(bst);
+}
+
+// Deletes all the elements if the bst and ensures it can be used again
+void clear_bst(bst_t *bst) {
+  _delete_all_nodes(bst->root);
+  bst->root = NULL;
+}
