@@ -106,14 +106,16 @@ int search(const heap_t *heap, int key, int *count_ptr) {
   // instead of searchign through tree, making use of the array structure
   // We are doing linear search
   int i = 1;
-  while (i < heap->max_size && heap->arr[i] != key) {
+  while (i < heap->max_size && heap->arr[i] != key) { // sadly no sentinel guard
     *(count_ptr) += 1;
     i++;
   }
+  int res = -1;
   if (i == heap->max_size)
-    return -1;
+    res = -1;
   else
-    return heap->arr[i];
+    res = heap->arr[i];
+  return res;
 }
 
 /*// Returns the maximum value of the element in the heap*/

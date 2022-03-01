@@ -1,8 +1,5 @@
 # Algorithm-Grind
 
-
-hello wodl
-
 Repo mainly containing https://cses.fi and CodeForces problems along
 with some of my own explaintations and notes for each module.
 I even use clrs for few algorithms
@@ -14,11 +11,8 @@ Algorithms are written in C++
 problems are solved in both C and C++
 
 
-Module-1 this is another liner :
+Module-1 :
 -----------------
-this i commit by 2nd person
-
-<b>Links used:</b>
 
     https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/
     www.geeksforgeeks.org

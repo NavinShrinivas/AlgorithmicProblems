@@ -41,13 +41,11 @@ int main() {
   const int n = 1000;
   bst_t b;
   init_bst(&b);
-
   /*
   **
   ** A few test cases to ensure correct functioning of basic operations
   **
   */
-
   int a[] = {6, 3, 7, 4, 8, 1, 5, 9, 2, 0};
   copy_array(&b, a, 10);
   int c = 0;
@@ -55,17 +53,20 @@ int main() {
     c = 0;
     assert(search(&b, a[i], &c) == a[i]);
   }
+
   c = 0;
-  assert(find_max(&b, &c) == 9);
 
   for (int i = 0; i < 10; ++i) {
     c = 0;
     delete_element(&b, a[i], &c);
+    printf("Here");
+    fflush(stdout);
     c = 0;
     assert(search(&b, a[i], &c) == -1);
     if (i == 9)
       break;
     int max = a[i + 1];
+
     for (int j = i + 1; j < 10; ++j) {
       c = 0;
       assert(search(&b, a[j], &c) == a[j]);
@@ -73,9 +74,15 @@ int main() {
         max = a[j];
     }
     c = 0;
+    printf("Here");
+    fflush(stdout);
     assert(find_max(&b, &c) == max);
+    printf("Here");
+    fflush(stdout);
   }
 
+  printf("hello ");
+  fflush(stdout);
   c = 0;
   assert(find_max(&b, &c) == -1);
   c = 0;
