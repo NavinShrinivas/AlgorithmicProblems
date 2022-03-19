@@ -1,0 +1,1353 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/navin/github/Algorithm-Grind/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+2-3 Tress	UE20CS251-Algorithm/23Trees/readme.md	/^# 2-3 Tress $/;"	c
+ARRAY_H_	UE20CS251-Algorithm/Assignment/sample_problem/array.h	/^#define ARRAY_H_$/;"	d
+ARRSIZE	UE20CS202-DataStructures/Heaps/1_1.h	/^#define ARRSIZE /;"	d
+ARRSIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/Heaps/1_1.h	/^#define ARRSIZE /;"	d
+ARRSIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/Heaps/1_1.h	/^#define ARRSIZE /;"	d
+ARRSIZE	UE20CS202-DataStructures/unit-sorting/unit-3/Heaps/1_1.h	/^#define ARRSIZE /;"	d
+AVLInsert	UE20CS202-DataStructures/AVL/1_1.c	/^void AVLInsert(struct node *root, int d) {$/;"	f	typeref:typename:void
+About recursion :	UE20CS251-Algorithm/Notes/Unit-1/session-6.md	/^## About recursion : $/;"	s	chapter:Session-5 : All about recursion
+Algorithm-Grind	README.md	/^# Algorithm-Grind$/;"	c
+Algorithms course	UE20CS251-Algorithm/readme.md	/^# Algorithms course $/;"	c
+Algorithms introduction.	UE20CS251-Algorithm/Notes/Unit-1/session-1.md	/^# Algorithms introduction.$/;"	c
+Analysis Framework	UE20CS251-Algorithm/Notes/Unit-1/session-4.md	/^## Analysis Framework$/;"	s	chapter:Session-4
+Analysis of Non Recursive Algorithm	UE20CS251-Algorithm/Notes/Unit-1/session-5.md	/^## Analysis of Non Recursive Algorithm $/;"	s	chapter:Session-5
+Analysis of recursive algorithms	UE20CS251-Algorithm/Notes/Unit-1/session-7.md	/^## Analysis of recursive algorithms$/;"	s	chapter:Session 7
+Array	UE20CS251-Algorithm/Assignment/sample_problem/array.h	/^typedef struct array Array;$/;"	t	typeref:struct:array
+Assumption in analysis :	UE20CS251-Algorithm/Notes/Unit-1/session-2.md	/^## Assumption in analysis : $/;"	s	chapter:Session-2
+BFSPathFinder	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^void BFSPathFinder(struct head **graph, int dt_row, int dt_col, int st_row,$/;"	f	typeref:typename:void
+BSTDelete	UE20CS202-DataStructures/BinarySearchTreeArrays/1_1.c	/^void BSTDelete(int *tree, int d, int index) {$/;"	f	typeref:typename:void
+BSTDelete	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTDelete(int *tree, int d, int index) {$/;"	f	typeref:typename:void
+BSTDelete	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTDelete(int *tree, int d, int index) {$/;"	f	typeref:typename:void
+BSTDelete	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTDelete(int *tree, int d, int index) {$/;"	f	typeref:typename:void
+BSTInorderTraversal	UE20CS202-DataStructures/BinarySearchTreeArrays/1_1.c	/^void BSTInorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTInorderTraversal	UE20CS202-DataStructures/BinarySearchTreeLinkedList/1_1.c	/^void BSTInorderTraversal(struct node* root){$/;"	f	typeref:typename:void
+BSTInorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTInorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTInorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.c	/^void BSTInorderTraversal(struct node* root){$/;"	f	typeref:typename:void
+BSTInorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTInorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTInorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.c	/^void BSTInorderTraversal(struct node* root){$/;"	f	typeref:typename:void
+BSTInorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTInorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTInorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.c	/^void BSTInorderTraversal(struct node* root){$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.c	/^void BSTInsertion(struct node *root, int d) {$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/BinarySearchTreeArrays/1_1.c	/^void BSTInsertion(int *tree, int d, int index) {$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/BinarySearchTreeLinkedList/1_1.c	/^void BSTInsertion(struct node *root , int d)$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTInsertion(struct node *root, int d) {$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTInsertion(int *tree, int d, int index) {$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.c	/^void BSTInsertion(struct node *root , int d)$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTInsertion(struct node *root, int d) {$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTInsertion(int *tree, int d, int index) {$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.c	/^void BSTInsertion(struct node *root , int d)$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTInsertion(struct node *root, int d) {$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTInsertion(int *tree, int d, int index) {$/;"	f	typeref:typename:void
+BSTInsertion	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.c	/^void BSTInsertion(struct node *root , int d)$/;"	f	typeref:typename:void
+BSTIterativeInorder	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.c	/^void BSTIterativeInorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativeInorder	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTIterativeInorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativeInorder	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTIterativeInorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativeInorder	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTIterativeInorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativePostorder	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.c	/^void BSTIterativePostorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativePostorder	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTIterativePostorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativePostorder	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTIterativePostorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativePostorder	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTIterativePostorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativePreorder	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.c	/^void BSTIterativePreorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativePreorder	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTIterativePreorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativePreorder	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTIterativePreorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTIterativePreorder	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void BSTIterativePreorder(struct node *root, struct stack *st) {$/;"	f	typeref:typename:void
+BSTPostorderTraversal	UE20CS202-DataStructures/BinarySearchTreeArrays/1_1.c	/^void BSTPostorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTPostorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTPostorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTPostorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTPostorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTPostorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTPostorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTPreorderTraversal	UE20CS202-DataStructures/BinarySearchTreeArrays/1_1.c	/^void BSTPreorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTPreorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTPreorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTPreorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTPreorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BSTPreorderTraversal	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^void BSTPreorderTraversal(int *tree, int index) {$/;"	f	typeref:typename:void
+BST_H_	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst.h	/^#define BST_H_$/;"	d
+BalanceFactor	UE20CS202-DataStructures/AVL/1_1.c	/^int BalanceFactor(struct node *root) {$/;"	f	typeref:typename:int
+Books :	UE20CS251-Algorithm/Notes/Unit-1/session-9.md	/^## Books : $/;"	s	chapter:Session-9 Lab
+Brute force	UE20CS251-Algorithm/Notes/Unit-2/session-10.md	/^## Brute force $/;"	s	chapter:Session-10
+Bubble sort :	UE20CS251-Algorithm/Notes/Unit-2/session-10.md	/^### Bubble sort :$/;"	S	section:Session-10""Sorting Problem
+CALLBACK_H	UE20CS251-Algorithm/05-CallbacksNString/callback/1_1.h	/^#define CALLBACK_H$/;"	d
+COUNT_H	UE20CS251-Algorithm/04-Count/search/1_1.h	/^#define COUNT_H$/;"	d
+Code :	UE20CS202-DataStructures/GraphsMatrix/submission.md	/^### Code :$/;"	S	section:Week-10 UE20CS207 DSLAB""HashTable DFS BFS
+Code :	UE20CS202-DataStructures/HashTableLinearProbing/submission.md	/^### Code :$/;"	S	section:Week-4 UE20CS207 DSLAB""Phone numbers with HashTable
+Code :	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/submission.md	/^### Code :$/;"	S	section:Week-10 UE20CS207 DSLAB""HashTable DFS BFS
+Code :	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/submission.md	/^### Code :$/;"	S	section:Week-4 UE20CS207 DSLAB""Phone numbers with HashTable
+Code :	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/submission.md	/^### Code :$/;"	S	section:Week-10 UE20CS207 DSLAB""HashTable DFS BFS
+Code :	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/submission.md	/^### Code :$/;"	S	section:Week-4 UE20CS207 DSLAB""Phone numbers with HashTable
+Code :	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/submission.md	/^### Code :$/;"	S	section:Week-10 UE20CS207 DSLAB""HashTable DFS BFS
+Code :	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/submission.md	/^### Code :$/;"	S	section:Week-4 UE20CS207 DSLAB""Phone numbers with HashTable
+Combining two functions :	UE20CS251-Algorithm/Notes/Unit-1/session-4.md	/^## Combining two functions : $/;"	s	chapter:Session-4
+CreateGraphEdge	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^void CreateGraphEdge(struct head **graph, int row, int col, int id) {$/;"	f	typeref:typename:void
+DFSPathFinder	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^void DFSPathFinder(struct head **graph, int dt_row, int dt_col, int st_row,$/;"	f	typeref:typename:void
+Different step sin solving a problem	UE20CS251-Algorithm/Notes/Unit-1/session-2.md	/^## Different step sin solving a problem$/;"	s	chapter:Session-2
+Efficiency :	UE20CS251-Algorithm/Notes/Unit-1/session-4.md	/^## Efficiency : $/;"	s	chapter:Session-4
+FIBB_H	UE20CS251-Algorithm/04-Count/fibbonacci/1_1.h	/^#define FIBB_H$/;"	d
+FlushStack	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_F.c	/^void FlushStack(struct head *head, FILE *fp) {$/;"	f	typeref:typename:void
+GenerateAdjList	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^void GenerateAdjList(int dt_row, int dt_col, struct head **graph,$/;"	f	typeref:typename:void
+GenerateSparceMatrix	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_F.c	/^struct sp_mat *GenerateSparceMatrix(int row, int col, int arr[][col]) {$/;"	f	typeref:struct:sp_mat *
+Graph	UE20CS251-Algorithm/Notes/Unit-1/session-2.md	/^## Graph$/;"	s	chapter:Session-2
+GraphAllPath	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^void GraphAllPath(int a[][graphvertices], bool visited[graphvertices],$/;"	f	typeref:typename:void
+GraphAllPath	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphAllPath(int a[][graphvertices], bool visited[graphvertices],$/;"	f	typeref:typename:void
+GraphAllPath	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphAllPath(int a[][graphvertices], bool visited[graphvertices],$/;"	f	typeref:typename:void
+GraphAllPath	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphAllPath(int a[][graphvertices], bool visited[graphvertices],$/;"	f	typeref:typename:void
+GraphBFS	UE20CS202-DataStructures/GraphsList/1_1.c	/^void GraphBFS(struct root **graph, int j) {$/;"	f	typeref:typename:void
+GraphBFS	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^void GraphBFS(int a[][graphvertices], int j, int *queue, int *top, int *front,$/;"	f	typeref:typename:void
+GraphBFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphBFS(struct root **graph, int j) {$/;"	f	typeref:typename:void
+GraphBFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphBFS(int a[][graphvertices], int j, int *queue, int *top, int *front,$/;"	f	typeref:typename:void
+GraphBFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphBFS(struct root **graph, int j) {$/;"	f	typeref:typename:void
+GraphBFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphBFS(int a[][graphvertices], int j, int *queue, int *top, int *front,$/;"	f	typeref:typename:void
+GraphBFS	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphBFS(struct root **graph, int j) {$/;"	f	typeref:typename:void
+GraphBFS	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphBFS(int a[][graphvertices], int j, int *queue, int *top, int *front,$/;"	f	typeref:typename:void
+GraphConnected	UE20CS202-DataStructures/GraphsList/1_1.c	/^void GraphConnected(struct root **graph, int n, int m) {$/;"	f	typeref:typename:void
+GraphConnected	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphConnected(struct root **graph, int n, int m) {$/;"	f	typeref:typename:void
+GraphConnected	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphConnected(struct root **graph, int n, int m) {$/;"	f	typeref:typename:void
+GraphConnected	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphConnected(struct root **graph, int n, int m) {$/;"	f	typeref:typename:void
+GraphDFS	UE20CS202-DataStructures/GraphsList/1_1.c	/^void GraphDFS(struct root **graph, bool *visited, int j) {$/;"	f	typeref:typename:void
+GraphDFS	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^void GraphDFS(int a[][graphvertices], bool visited[graphvertices], int j) {$/;"	f	typeref:typename:void
+GraphDFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphDFS(struct root **graph, bool *visited, int j) {$/;"	f	typeref:typename:void
+GraphDFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphDFS(int a[][graphvertices], bool visited[graphvertices], int j) {$/;"	f	typeref:typename:void
+GraphDFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphDFS(struct root **graph, bool *visited, int j) {$/;"	f	typeref:typename:void
+GraphDFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphDFS(int a[][graphvertices], bool visited[graphvertices], int j) {$/;"	f	typeref:typename:void
+GraphDFS	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphDFS(struct root **graph, bool *visited, int j) {$/;"	f	typeref:typename:void
+GraphDFS	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphDFS(int a[][graphvertices], bool visited[graphvertices], int j) {$/;"	f	typeref:typename:void
+GraphIndegree	UE20CS202-DataStructures/GraphsList/1_1.c	/^void GraphIndegree(struct root **graph, int v) {$/;"	f	typeref:typename:void
+GraphIndegree	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^int GraphIndegree(int a[][graphvertices], int v) {$/;"	f	typeref:typename:int
+GraphIndegree	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphIndegree(struct root **graph, int v) {$/;"	f	typeref:typename:void
+GraphIndegree	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^int GraphIndegree(int a[][graphvertices], int v) {$/;"	f	typeref:typename:int
+GraphIndegree	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphIndegree(struct root **graph, int v) {$/;"	f	typeref:typename:void
+GraphIndegree	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^int GraphIndegree(int a[][graphvertices], int v) {$/;"	f	typeref:typename:int
+GraphIndegree	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphIndegree(struct root **graph, int v) {$/;"	f	typeref:typename:void
+GraphIndegree	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^int GraphIndegree(int a[][graphvertices], int v) {$/;"	f	typeref:typename:int
+GraphInsertEdge	UE20CS202-DataStructures/GraphsList/1_1.c	/^void GraphInsertEdge(struct root **graph, int n, int m) {$/;"	f	typeref:typename:void
+GraphInsertEdge	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^void GraphInsertEdge(int a[][graphvertices], int n, int m) {$/;"	f	typeref:typename:void
+GraphInsertEdge	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphInsertEdge(struct root **graph, int n, int m) {$/;"	f	typeref:typename:void
+GraphInsertEdge	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphInsertEdge(int a[][graphvertices], int n, int m) {$/;"	f	typeref:typename:void
+GraphInsertEdge	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphInsertEdge(struct root **graph, int n, int m) {$/;"	f	typeref:typename:void
+GraphInsertEdge	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphInsertEdge(int a[][graphvertices], int n, int m) {$/;"	f	typeref:typename:void
+GraphInsertEdge	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.c	/^void GraphInsertEdge(struct root **graph, int n, int m) {$/;"	f	typeref:typename:void
+GraphInsertEdge	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void GraphInsertEdge(int a[][graphvertices], int n, int m) {$/;"	f	typeref:typename:void
+GraphOutdegree	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^int GraphOutdegree(int a[][graphvertices], int v) {$/;"	f	typeref:typename:int
+GraphOutdegree	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^int GraphOutdegree(int a[][graphvertices], int v) {$/;"	f	typeref:typename:int
+GraphOutdegree	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^int GraphOutdegree(int a[][graphvertices], int v) {$/;"	f	typeref:typename:int
+GraphOutdegree	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^int GraphOutdegree(int a[][graphvertices], int v) {$/;"	f	typeref:typename:int
+Guidelines to follow	UE20CS251-Algorithm/Notes/Unit-1/session-9.md	/^## Guidelines to follow$/;"	s	chapter:Session-9 Lab
+HEAP_H	UE20CS251-Algorithm/heaps/1_1.h	/^#define HEAP_H$/;"	d
+HEAP_H_	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap.h	/^#define HEAP_H_$/;"	d
+HOARE_H	UE20CS251-Algorithm/HoarePartition/1_1.h	/^#define HOARE_H$/;"	d
+HashFunction	UE20CS202-DataStructures/HashTableLinearProbing/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/HashTableOpenHashing/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/HashTableQuadratic/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashFunction	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^int HashFunction(ll key) {$/;"	f	typeref:typename:int
+HashTable DFS BFS	UE20CS202-DataStructures/GraphsMatrix/submission.md	/^## HashTable DFS BFS$/;"	s	chapter:Week-10 UE20CS207 DSLAB
+HashTable DFS BFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/submission.md	/^## HashTable DFS BFS$/;"	s	chapter:Week-10 UE20CS207 DSLAB
+HashTable DFS BFS	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/submission.md	/^## HashTable DFS BFS$/;"	s	chapter:Week-10 UE20CS207 DSLAB
+HashTable DFS BFS	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/submission.md	/^## HashTable DFS BFS$/;"	s	chapter:Week-10 UE20CS207 DSLAB
+HashTableDelete	UE20CS202-DataStructures/HashTableLinearProbing/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/HashTableOpenHashing/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/HashTableQuadratic/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDelete	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableDelete(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/HashTableLinearProbing/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/HashTableOpenHashing/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/HashTableQuadratic/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableDisplay	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableDisplay(struct person **table) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/HashTableLinearProbing/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/HashTableOpenHashing/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/HashTableQuadratic/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableInsert	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableInsert(struct person **table, struct person *d) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/HashTableLinearProbing/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/HashTableOpenHashing/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/HashTableQuadratic/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HashTableSearch	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.c	/^void HashTableSearch(struct person **table, ll ph) {$/;"	f	typeref:typename:void
+HeapInsert	UE20CS202-DataStructures/Heaps/1_1.c	/^void HeapInsert(int *tree, int d) {$/;"	f	typeref:typename:void
+HeapInsert	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/Heaps/1_1.c	/^void HeapInsert(int *tree, int d) {$/;"	f	typeref:typename:void
+HeapInsert	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/Heaps/1_1.c	/^void HeapInsert(int *tree, int d) {$/;"	f	typeref:typename:void
+HeapInsert	UE20CS202-DataStructures/unit-sorting/unit-3/Heaps/1_1.c	/^void HeapInsert(int *tree, int d) {$/;"	f	typeref:typename:void
+HeapifyMax	UE20CS202-DataStructures/Heaps/1_1.c	/^void HeapifyMax(int *tree, int i, int n) {$/;"	f	typeref:typename:void
+HeapifyMax	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/Heaps/1_1.c	/^void HeapifyMax(int *tree, int i, int n) {$/;"	f	typeref:typename:void
+HeapifyMax	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/Heaps/1_1.c	/^void HeapifyMax(int *tree, int i, int n) {$/;"	f	typeref:typename:void
+HeapifyMax	UE20CS202-DataStructures/unit-sorting/unit-3/Heaps/1_1.c	/^void HeapifyMax(int *tree, int i, int n) {$/;"	f	typeref:typename:void
+Heaps	UE20CS251-Algorithm/heaps/readme.md	/^# Heaps $/;"	c
+Heaps the two	UE20CS251-Algorithm/heaps/readme.md	/^## Heaps the two $/;"	s	chapter:Heaps
+IDReturn	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^int IDReturn(struct head **graph, int row, int col) {$/;"	f	typeref:typename:int
+IOS	learning/coin_DP_problem.cpp	/^#define IOS /;"	d	file:
+Identify a heap	UE20CS251-Algorithm/heaps/readme.md	/^## Identify a heap $/;"	s	chapter:Heaps
+Implementation for mutiset :	UE20CS251-Algorithm/heaps/readme.md	/^## Implementation for mutiset : $/;"	s	chapter:Heaps
+InorderScuccesor	UE20CS202-DataStructures/BinarySearchTreeArrays/1_1.c	/^int InorderScuccesor(int *tree, int index) {$/;"	f	typeref:typename:int
+InorderScuccesor	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^int InorderScuccesor(int *tree, int index) {$/;"	f	typeref:typename:int
+InorderScuccesor	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^int InorderScuccesor(int *tree, int index) {$/;"	f	typeref:typename:int
+InorderScuccesor	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.c	/^int InorderScuccesor(int *tree, int index) {$/;"	f	typeref:typename:int
+Inplace and Stable	UE20CS251-Algorithm/Notes/Unit-2/session-10.md	/^## Inplace and Stable $/;"	s	chapter:Session-10
+Interfaces of multiset :	UE20CS251-Algorithm/heaps/readme.md	/^## Interfaces of multiset : $/;"	s	chapter:Heaps
+IsConnected	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^void IsConnected(int a[][graphvertices], int c, int d) {$/;"	f	typeref:typename:void
+IsConnected	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void IsConnected(int a[][graphvertices], int c, int d) {$/;"	f	typeref:typename:void
+IsConnected	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void IsConnected(int a[][graphvertices], int c, int d) {$/;"	f	typeref:typename:void
+IsConnected	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void IsConnected(int a[][graphvertices], int c, int d) {$/;"	f	typeref:typename:void
+JHONTROT_H	UE20CS251-Algorithm/JhonsonTrotter/1_1.h	/^#define JHONTROT_H$/;"	d
+L4	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.L4:$/;"	l
+L5	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.L5:$/;"	l
+L6	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.L6:$/;"	l
+L7	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.L7:$/;"	l
+L9	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.L9:$/;"	l
+LC0	UE20CS251-Algorithm/01-TimingProgram/hello.s	/^.LC0:$/;"	l
+LC0	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.LC0:$/;"	l
+LC1	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.LC1:$/;"	l
+LC2	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.LC2:$/;"	l
+LFB0	UE20CS251-Algorithm/01-TimingProgram/hello.s	/^.LFB0:$/;"	l
+LFB6	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.LFB6:$/;"	l
+LFB7	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.LFB7:$/;"	l
+LFE0	UE20CS251-Algorithm/01-TimingProgram/hello.s	/^.LFE0:$/;"	l
+LFE6	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.LFE6:$/;"	l
+LFE7	UE20CS251-Algorithm/01-TimingProgram/main.s	/^.LFE7:$/;"	l
+LIST_H	UE20CS251-Algorithm/03-Recursion/list/1_1.h	/^#define LIST_H$/;"	d
+LIS_function	learning/LIS(O(nlogn)).cpp	/^int LIS_function(vector<int>v)$/;"	f	typeref:typename:int
+MATRIX_H	UE20CS251-Algorithm/02-Matrix/class_impl/matrix.h	/^#define MATRIX_H$/;"	d
+MAX	UE20CS251-Algorithm/Assignment/sample_problem/array.h	/^#define MAX /;"	d
+MERGE_H	UE20CS251-Algorithm/merge_sort/1_1.h	/^#define MERGE_H$/;"	d
+Modified bubble sort	UE20CS251-Algorithm/Notes/Unit-2/session-10.md	/^### Modified bubble sort $/;"	S	section:Session-10""Sorting Problem
+Module-1 :	README.md	/^Module-1 :$/;"	s	chapter:Algorithm-Grind
+More about non-recursive algorithms	UE20CS251-Algorithm/Notes/Unit-1/session-7.md	/^## More about non-recursive algorithms $/;"	s	chapter:Session 7
+More analysis of recursive algorithms	UE20CS251-Algorithm/Notes/Unit-1/session-8.md	/^## More analysis of recursive algorithms $/;"	s	chapter:Session-08
+N-Queens Problems :	UE20CS251-Algorithm/Notes/Unit-2/session-13.md	/^## N-Queens Problems : $/;"	s	chapter:Session-13 : Bruteforce - Exhaustive search
+Notations for efficiency :	UE20CS251-Algorithm/Notes/Unit-1/session-4.md	/^## Notations for efficiency : $/;"	s	chapter:Session-4
+Order of growth	UE20CS251-Algorithm/Notes/Unit-1/session-5.md	/^## Order of growth$/;"	s	chapter:Session-5
+Order of growth :	UE20CS251-Algorithm/Notes/Unit-1/session-4.md	/^## Order of growth : $/;"	s	chapter:Session-4
+POWER_H	UE20CS251-Algorithm/04-Count/power/1_1.h	/^#define POWER_H$/;"	d
+Phone numbers with HashTable	UE20CS202-DataStructures/HashTableLinearProbing/submission.md	/^## Phone numbers with HashTable$/;"	s	chapter:Week-4 UE20CS207 DSLAB
+Phone numbers with HashTable	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/submission.md	/^## Phone numbers with HashTable$/;"	s	chapter:Week-4 UE20CS207 DSLAB
+Phone numbers with HashTable	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/submission.md	/^## Phone numbers with HashTable$/;"	s	chapter:Week-4 UE20CS207 DSLAB
+Phone numbers with HashTable	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/submission.md	/^## Phone numbers with HashTable$/;"	s	chapter:Week-4 UE20CS207 DSLAB
+Problems Pathway :	README.md	/^Problems Pathway :$/;"	s	chapter:Algorithm-Grind
+Program : sum of all elements in a array using recursion	UE20CS251-Algorithm/Notes/Unit-1/session-6.md	/^## Program : sum of all elements in a array using recursion $/;"	s	chapter:Session-5 : All about recursion
+Programs	UE20CS251-Algorithm/Notes/Unit-1/session-9.md	/^## Programs$/;"	s	chapter:Session-9 Lab
+Puzzels :	UE20CS251-Algorithm/Notes/Unit-1/session-1.md	/^# Puzzels : $/;"	c
+QUEUESIZE	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/CircularQueue/1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/GraphsList/1_1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/GraphsMatrix/1_1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/QueueArrays/1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/CircularQueue/1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/QueueArrays/1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/CircularQueue/1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/QueueArrays/1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/CircularQueue/1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/QueueArrays/1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.h	/^#define QUEUESIZE /;"	d
+QUEUESIZE	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.h	/^#define QUEUESIZE /;"	d
+QueuePeek	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^int QueuePeek(int *queue, int *top, int *front) {$/;"	f	typeref:typename:int
+QueuePeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^int QueuePeek(int *queue, int *top, int *front) {$/;"	f	typeref:typename:int
+QueuePeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^int QueuePeek(int *queue, int *top, int *front) {$/;"	f	typeref:typename:int
+QueuePeek	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^int QueuePeek(int *queue, int *top, int *front) {$/;"	f	typeref:typename:int
+Representing a heap	UE20CS251-Algorithm/heaps/readme.md	/^## Representing a heap $/;"	s	chapter:Heaps
+RightRotate	UE20CS202-DataStructures/AVL/1_1.c	/^struct node *RightRotate(struct node *root) {$/;"	f	typeref:struct:node *
+SORTING_H	UE20CS251-Algorithm/sorting/1_1.h	/^#define SORTING_H$/;"	d
+SORT_H	UE20CS251-Algorithm/05-Topological_Sort/1_1.h	/^#define SORT_H$/;"	d
+STACKSIZE	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^#define STACKSIZE /;"	d
+STACKSIZE	UE20CS202-DataStructures/StackArrays/1.h	/^#define STACKSIZE /;"	d
+STACKSIZE	UE20CS202-DataStructures/unit-sorting/unit-2/StackArrays/1.h	/^#define STACKSIZE /;"	d
+STACKSIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackArrays/1.h	/^#define STACKSIZE /;"	d
+STACKSIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^#define STACKSIZE /;"	d
+STACKSIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackArrays/1.h	/^#define STACKSIZE /;"	d
+STACKSIZE	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^#define STACKSIZE /;"	d
+STACKSIZE	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^#define STACKSIZE /;"	d
+STRING_H	UE20CS251-Algorithm/03-Recursion/string/1_1.h	/^#define STRING_H$/;"	d
+Searching	UE20CS251-Algorithm/Notes/Unit-2/session-11.md	/^## Searching $/;"	s	chapter:Session 11
+Selection sort	UE20CS251-Algorithm/Notes/Unit-2/session-10.md	/^### Selection sort$/;"	S	section:Session-10""Sorting Problem
+Sequential search using recurrence	UE20CS251-Algorithm/Notes/Unit-1/session-8.md	/^## Sequential search using recurrence$/;"	s	chapter:Session-08
+Session 11	UE20CS251-Algorithm/Notes/Unit-2/session-11.md	/^# Session 11 $/;"	c
+Session 12-Lab : Callbacks	UE20CS251-Algorithm/Notes/Unit-2/session-12.md	/^# Session 12-Lab : Callbacks $/;"	c
+Session 7	UE20CS251-Algorithm/Notes/Unit-1/session-7.md	/^# Session 7$/;"	c
+Session-08	UE20CS251-Algorithm/Notes/Unit-1/session-8.md	/^# Session-08$/;"	c
+Session-10	UE20CS251-Algorithm/Notes/Unit-2/session-10.md	/^# Session-10 $/;"	c
+Session-13 : Bruteforce - Exhaustive search	UE20CS251-Algorithm/Notes/Unit-2/session-13.md	/^# Session-13 : Bruteforce - Exhaustive search $/;"	c
+Session-15 - Lab	UE20CS251-Algorithm/Notes/Unit-2/session-15.md	/^# Session-15 - Lab $/;"	c
+Session-2	UE20CS251-Algorithm/Notes/Unit-1/session-2.md	/^# Session-2 $/;"	c
+Session-3 : Lab	UE20CS251-Algorithm/Notes/Unit-1/session-3.md	/^# Session-3 : Lab$/;"	c
+Session-4	UE20CS251-Algorithm/Notes/Unit-1/session-4.md	/^# Session-4$/;"	c
+Session-5	UE20CS251-Algorithm/Notes/Unit-1/session-5.md	/^# Session-5 $/;"	c
+Session-5 : All about recursion	UE20CS251-Algorithm/Notes/Unit-1/session-6.md	/^# Session-5 : All about recursion $/;"	c
+Session-9 Lab	UE20CS251-Algorithm/Notes/Unit-1/session-9.md	/^# Session-9 Lab $/;"	c
+Some math :	UE20CS251-Algorithm/Notes/Unit-1/session-7.md	/^## Some math : $/;"	s	chapter:Session 7
+Some other problems :	UE20CS251-Algorithm/Notes/Unit-1/session-8.md	/^## Some other problems : $/;"	s	chapter:Session-08
+Sorting Problem	UE20CS251-Algorithm/Notes/Unit-2/session-10.md	/^## Sorting Problem $/;"	s	chapter:Session-10
+Sorting and searching:	UE20CS251-Algorithm/Notes/Unit-1/session-2.md	/^## Sorting and searching: $/;"	s	chapter:Session-2
+String Matching	UE20CS251-Algorithm/Notes/Unit-2/session-11.md	/^## String Matching $/;"	s	chapter:Session 11
+Strings	UE20CS251-Algorithm/Notes/Unit-1/session-2.md	/^## Strings$/;"	s	chapter:Session-2
+TOH_H	UE20CS251-Algorithm/04-Count/tower_of_hanoi/1_1.h	/^#define TOH_H /;"	d
+TTSEHelper	UE20CS202-DataStructures/TrieTrees/1_1.c	/^void TTSEHelper(struct node *curr, char *tempstr) {$/;"	f	typeref:typename:void
+TTSEHelper	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TTSEHelper(struct node *curr, char *tempstr) {$/;"	f	typeref:typename:void
+TTSEHelper	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TTSEHelper(struct node *curr, char *tempstr) {$/;"	f	typeref:typename:void
+TTSEHelper	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TTSEHelper(struct node *curr, char *tempstr) {$/;"	f	typeref:typename:void
+Travelling Salesman Problem (TSP)	UE20CS251-Algorithm/Notes/Unit-2/session-13.md	/^## Travelling Salesman Problem (TSP) $/;"	s	chapter:Session-13 : Bruteforce - Exhaustive search
+TrieTreeExactMatch	UE20CS202-DataStructures/TrieTrees/1_1.c	/^void TrieTreeExactMatch(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeExactMatch	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TrieTreeExactMatch(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeExactMatch	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TrieTreeExactMatch(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeExactMatch	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TrieTreeExactMatch(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeInsertIterative	UE20CS202-DataStructures/TrieTrees/1_1.c	/^void TrieTreeInsertIterative(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeInsertIterative	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TrieTreeInsertIterative(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeInsertIterative	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TrieTreeInsertIterative(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeInsertIterative	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TrieTreeInsertIterative(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeSearchEngine	UE20CS202-DataStructures/TrieTrees/1_1.c	/^void TrieTreeSearchEngine(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeSearchEngine	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TrieTreeSearchEngine(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeSearchEngine	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TrieTreeSearchEngine(struct node *root, char *str) {$/;"	f	typeref:typename:void
+TrieTreeSearchEngine	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/1_1.c	/^void TrieTreeSearchEngine(struct node *root, char *str) {$/;"	f	typeref:typename:void
+Unit-2 :	UE20CS251-Algorithm/Notes/Unit-2/session-10.md	/^## Unit-2 : $/;"	s	chapter:Session-10
+Week-10 UE20CS207 DSLAB	UE20CS202-DataStructures/GraphsMatrix/submission.md	/^# Week-10 UE20CS207 DSLAB$/;"	c
+Week-10 UE20CS207 DSLAB	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/submission.md	/^# Week-10 UE20CS207 DSLAB$/;"	c
+Week-10 UE20CS207 DSLAB	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/submission.md	/^# Week-10 UE20CS207 DSLAB$/;"	c
+Week-10 UE20CS207 DSLAB	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/submission.md	/^# Week-10 UE20CS207 DSLAB$/;"	c
+Week-4 UE20CS207 DSLAB	UE20CS202-DataStructures/HashTableLinearProbing/submission.md	/^# Week-4 UE20CS207 DSLAB$/;"	c
+Week-4 UE20CS207 DSLAB	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/submission.md	/^# Week-4 UE20CS207 DSLAB$/;"	c
+Week-4 UE20CS207 DSLAB	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/submission.md	/^# Week-4 UE20CS207 DSLAB$/;"	c
+Week-4 UE20CS207 DSLAB	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/submission.md	/^# Week-4 UE20CS207 DSLAB$/;"	c
+What is this new folder Navin?	UE20CS202-DataStructures/unit-sorting/readme.md	/^# What is this new folder Navin?$/;"	c
+What is this new folder Navin?	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/readme.md	/^# What is this new folder Navin?$/;"	c
+What is this new folder Navin?	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/readme.md	/^# What is this new folder Navin?$/;"	c
+_change_direction	UE20CS251-Algorithm/JhonsonTrotter/1_1.c	/^static void _change_direction(int n, int mobile, node_t *arr[]) {$/;"	f	typeref:typename:void	file:
+_cmp	UE20CS251-Algorithm/03-Recursion/string/string.c	/^int _cmp(char *str1, char *str2, int n) {$/;"	f	typeref:typename:int
+_copy	UE20CS251-Algorithm/03-Recursion/list/list.c	/^void *_copy(node_t *src_) {$/;"	f	typeref:typename:void *
+_count	UE20CS251-Algorithm/03-Recursion/list/list.c	/^int _count(node_t *node) {$/;"	f	typeref:typename:int
+_create_new_node	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^static node_t *_create_new_node(int key) {$/;"	f	typeref:typename:node_t *	file:
+_delete_all_nodes	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^static void _delete_all_nodes(node_t *node) {$/;"	f	typeref:typename:void	file:
+_delete_node	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^static node_t *_delete_node(node_t *node, int key, int *count_ptr) {$/;"	f	typeref:typename:node_t *	file:
+_disp	UE20CS251-Algorithm/03-Recursion/list/list.c	/^void _disp(node_t *node) {$/;"	f	typeref:typename:void
+_inorder_successor	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^static node_t *_inorder_successor(node_t *node) {$/;"	f	typeref:typename:node_t *	file:
+_insert	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^static void _insert(node_t *node, int key, int *count_ptr) {$/;"	f	typeref:typename:void	file:
+_len	UE20CS251-Algorithm/03-Recursion/string/string.c	/^int _len(char *str, int n) {$/;"	f	typeref:typename:int
+_merge	UE20CS251-Algorithm/merge_sort/1_1.c	/^static void _merge(int a[], int l, int r) {$/;"	f	typeref:typename:void	file:
+_msort	UE20CS251-Algorithm/merge_sort/1_1.c	/^static void _msort(int a[], int l, int r) {$/;"	f	typeref:typename:void	file:
+_print_array	UE20CS251-Algorithm/JhonsonTrotter/1_1.c	/^static void _print_array(int n, node_t *arr[]) {$/;"	f	typeref:typename:void	file:
+_recursive_search	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^int _recursive_search(node_t *node, int key, int *count_ptr) {$/;"	f	typeref:typename:int
+_reverse	UE20CS251-Algorithm/03-Recursion/list/list.c	/^void *_reverse(node_t *parent, node_t *child) {$/;"	f	typeref:typename:void *
+_swap_node	UE20CS251-Algorithm/JhonsonTrotter/1_1.c	/^static void _swap_node(int s1, node_t *arr[], int n) {$/;"	f	typeref:typename:void	file:
+a new way of definfning data structures :	UE20CS251-Algorithm/Notes/Unit-1/session-6.md	/^## a new way of definfning data structures : $/;"	s	chapter:Session-5 : All about recursion
+add	UE20CS251-Algorithm/05-CallbacksNString/callback/1_1.c	/^int add(int a, int b) { return a + b; }$/;"	f	typeref:typename:int
+add_matrix	UE20CS251-Algorithm/02-Matrix/1_1.c	/^void add_matrix(int n, int a[][n], int b[][n], int c[][n]) {$/;"	f	typeref:typename:void
+add_matrix	UE20CS251-Algorithm/02-Matrix/class_impl/matrix.c	/^void add_matrix(int n,int a[][n],int b[][n],int c[][n]){$/;"	f	typeref:typename:void
+ans	UE20CS202-DataStructures/PostfixEval/main.c	/^int ans=0;$/;"	v	typeref:typename:int
+ans	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/main.c	/^int ans=0;$/;"	v	typeref:typename:int
+arr	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap.h	/^    int *arr;$/;"	m	struct:heap	typeref:typename:int *
+arr	UE20CS251-Algorithm/Assignment/sample_problem/array.h	/^    int arr[MAX];$/;"	m	struct:array	typeref:typename:int[]
+arr_collect	UE20CS251-Algorithm/05-CallbacksNString/callback/1_1.c	/^int arr_collect(int *a, int n, int init, int (*fn)(int, int)) {$/;"	f	typeref:typename:int
+array	.vscode/settings.json	/^        "array": "cpp",$/;"	s	object:files.associations
+array	UE20CS251-Algorithm/Assignment/sample_problem/array.h	/^struct array$/;"	s
+better_bubble_sort	UE20CS251-Algorithm/sorting/1_1.c	/^void better_bubble_sort(int *a, int *b) {$/;"	f	typeref:typename:void
+binary_search	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^static int binary_search(const Array *arr, int key, int l, int r,$/;"	f	typeref:typename:int	file:
+binary_search	learning/exponential_search.cpp	/^int binary_search(int a[],int L,int U,int x)$/;"	f	typeref:typename:int
+bitpow	problems/9-BitStrings.cpp	/^ll bitpow(ll n)$/;"	f	typeref:typename:ll
+bst	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst.h	/^struct bst$/;"	s
+bst_t	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst.h	/^typedef struct bst bst_t;$/;"	t	typeref:struct:bst
+bubble_sort	UE20CS251-Algorithm/sorting/1_1.c	/^void bubble_sort(int *a, int *b) {$/;"	f	typeref:typename:void
+bubblesort	1-Sorting/Algorithms/bubble_sort.cpp	/^void bubblesort(int a[],int n)$/;"	f	typeref:typename:void
+callback	UE20CS251-Algorithm/05-CallbacksNString/callback/1_1.c	/^int callback(int x, int y, int (*fn_ptr)(int, int)) { return fn_ptr(x, y); }$/;"	f	typeref:typename:int
+clear_array	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^void clear_array(Array *arr) $/;"	f	typeref:typename:void
+clear_bst	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^void clear_bst(bst_t *bst) {$/;"	f	typeref:typename:void
+clear_heap	UE20CS251-Algorithm/Assignment/Problem_statement_1/PES2UG20CS237_heap.c	/^void clear_heap(heap_t *heap) {$/;"	f	typeref:typename:void
+clear_outdegree	UE20CS251-Algorithm/05-Topological_Sort/1_1.c	/^static void clear_outdegree(int (*a)[1000], int key1) {$/;"	f	typeref:typename:void	file:
+col	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  int col;$/;"	m	struct:sp_mat	typeref:typename:int
+col	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^    int row,col;$/;"	m	struct:head	typeref:typename:int
+comparedmerge	1-Sorting/Algorithms/merge_sort.cpp	/^void comparedmerge(int a[],int l,int m,int r)$/;"	f	typeref:typename:void
+comparedmerge	1-Sorting/Problems/ExaminBerSU-EasyVersion.cpp	/^void comparedmerge(int a[],int l,int m,int r)$/;"	f	typeref:typename:void
+con	UE20CS202-DataStructures/TrieTrees/formatter.py	/^con = file.readlines();$/;"	v
+con	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/formatter.py	/^con = file.readlines();$/;"	v
+con	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/formatter.py	/^con = file.readlines();$/;"	v
+con	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/formatter.py	/^con = file.readlines();$/;"	v
+connect	UE20CS202-DataStructures/TrieTrees/1_1.h	/^    struct node* connect[27];$/;"	m	struct:node	typeref:struct:node * [27]
+connect	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/1_1.h	/^    struct node* connect[27];$/;"	m	struct:node	typeref:struct:node * [27]
+connect	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/1_1.h	/^    struct node* connect[27];$/;"	m	struct:node	typeref:struct:node * [27]
+connect	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/1_1.h	/^    struct node* connect[27];$/;"	m	struct:node	typeref:struct:node * [27]
+copy_array	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap_client.c	/^void copy_array(heap_t *dst, const int *src, int n) {$/;"	f	typeref:typename:void
+copy_array	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst_client.c	/^void copy_array(bst_t *dst, const int *src, int n) {$/;"	f	typeref:typename:void
+copy_array	UE20CS251-Algorithm/Assignment/sample_problem/array_client.c	/^void copy_array(Array *dst, const int *src, int n)$/;"	f	typeref:typename:void
+copy_list	UE20CS251-Algorithm/03-Recursion/list/list.c	/^void copy_list(list_t *src, list_t *dst) { dst->head_ = _copy(src->head_); }$/;"	f	typeref:typename:void
+count	UE20CS251-Algorithm/05-CallbacksNString/ABsubstring.c	/^int count(char *str) {$/;"	f	typeref:typename:int
+cover_hole	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^static void cover_hole(Array *a, int i)$/;"	f	typeref:typename:void	file:
+create_heap	UE20CS251-Algorithm/heaps/1_1.c	/^heap_t *create_heap(int n) {$/;"	f	typeref:typename:heap_t *
+create_hole	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^static void create_hole(Array *a, int i)$/;"	f	typeref:typename:void	file:
+data	UE20CS202-DataStructures/AVL/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  struct sp_mat *data;$/;"	m	struct:node	typeref:struct:sp_mat *
+data	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^    int data; $/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^    struct vnode* data[STACKSIZE]; $/;"	m	struct:stack	typeref:struct:vnode * []
+data	UE20CS202-DataStructures/BinarySearchTreeLinkedList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/DEqueue/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/GraphsList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/InfixToPostfix/1_1.h	/^    char data;$/;"	m	struct:node	typeref:typename:char
+data	UE20CS202-DataStructures/InfixToPrefix/1_1.h	/^    char data;$/;"	m	struct:node	typeref:typename:char
+data	UE20CS202-DataStructures/PostfixEval/1_1.h	/^    char data;$/;"	m	struct:node	typeref:typename:char
+data	UE20CS202-DataStructures/QueueLinkedList/1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/SingleLinkedList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/StackArrays/1.h	/^    int data[STACKSIZE];$/;"	m	struct:stack	typeref:typename:int[]
+data	UE20CS202-DataStructures/StackLinkedList/1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.h	/^    char data;$/;"	m	struct:node	typeref:typename:char
+data	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.h	/^    char data;$/;"	m	struct:node	typeref:typename:char
+data	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.h	/^    char data;$/;"	m	struct:node	typeref:typename:char
+data	UE20CS202-DataStructures/unit-sorting/unit-2/StackArrays/1.h	/^    int data[STACKSIZE];$/;"	m	struct:stack	typeref:typename:int[]
+data	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackArrays/1.h	/^    int data[STACKSIZE];$/;"	m	struct:stack	typeref:typename:int[]
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int data; $/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct vnode* data[STACKSIZE]; $/;"	m	struct:stack	typeref:struct:vnode * []
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackArrays/1.h	/^    int data[STACKSIZE];$/;"	m	struct:stack	typeref:typename:int[]
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int data; $/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct vnode* data[STACKSIZE]; $/;"	m	struct:stack	typeref:struct:vnode * []
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int data; $/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct vnode* data[STACKSIZE]; $/;"	m	struct:stack	typeref:struct:vnode * []
+data	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+data	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.h	/^    int data;$/;"	m	struct:node	typeref:typename:int
+delete_element	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^void delete_element(bst_t *tree, int key, int *count_ptr) {$/;"	f	typeref:typename:void
+deletenode	UE20CS202-DataStructures/SingleLinkedList/1_1.c	/^void deletenode(struct head* top , int pos)$/;"	f	typeref:typename:void
+deletenode	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.c	/^void deletenode(struct head* top , int pos)$/;"	f	typeref:typename:void
+deletenode	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.c	/^void deletenode(struct head* top , int pos)$/;"	f	typeref:typename:void
+deque	.vscode/settings.json	/^        "deque": "cpp",$/;"	s	object:files.associations
+dfs	learning/DFS.cpp	/^void dfs(int j,bool visited[],list<int>a[])$/;"	f	typeref:typename:void
+dfs	learning/connected.cpp	/^void dfs(int j,bool visited[],list<int>a[],int h,int &connected)$/;"	f	typeref:typename:void
+direction	UE20CS251-Algorithm/JhonsonTrotter/1_1.h	/^  int direction;$/;"	m	struct:node	typeref:typename:int
+disp	UE20CS251-Algorithm/HoarePartition/1_1.c	/^void disp(int *a, int n) {$/;"	f	typeref:typename:void
+disp_matrix	UE20CS251-Algorithm/02-Matrix/1_1.c	/^void disp_matrix(int n, int x[][n]) {$/;"	f	typeref:typename:void
+disp_matrix	UE20CS251-Algorithm/02-Matrix/class_impl/matrix.c	/^void disp_matrix(int n, int x[][n]){$/;"	f	typeref:typename:void
+display	UE20CS251-Algorithm/heaps/1_1.c	/^void display(const heap_t *heap_ptr) {$/;"	f	typeref:typename:void
+display	UE20CS251-Algorithm/merge_sort/1_1.c	/^void display(int a[], int m) {$/;"	f	typeref:typename:void
+display_list	UE20CS251-Algorithm/03-Recursion/list/list.c	/^void display_list(list_t *list) {$/;"	f	typeref:typename:void
+displaylist	UE20CS202-DataStructures/SingleLinkedList/1_1.c	/^void displaylist(struct head* top)$/;"	f	typeref:typename:void
+displaylist	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.c	/^void displaylist(struct head* top)$/;"	f	typeref:typename:void
+displaylist	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.c	/^void displaylist(struct head* top)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/InfixToPostfix/1_1.c	/^void displaystack(struct head* head)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/InfixToPrefix/1_1.c	/^void displaystack(struct head* head)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/PostfixEval/1_1.c	/^void displaystack(struct head* head)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/StackArrays/1.c	/^void displaystack(struct stack* st)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/StackLinkedList/1.c	/^void displaystack(struct head *head) {$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.c	/^void displaystack(struct head* head)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.c	/^void displaystack(struct head* head)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.c	/^void displaystack(struct head* head)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/unit-sorting/unit-2/StackArrays/1.c	/^void displaystack(struct stack* st)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/1.c	/^void displaystack(struct head *head) {$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackArrays/1.c	/^void displaystack(struct stack* st)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/1.c	/^void displaystack(struct head *head) {$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackArrays/1.c	/^void displaystack(struct stack* st)$/;"	f	typeref:typename:void
+displaystack	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/1.c	/^void displaystack(struct head *head) {$/;"	f	typeref:typename:void
+down	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  struct sp_mat *down;$/;"	m	struct:sp_mat	typeref:struct:sp_mat *
+efficient_count	UE20CS251-Algorithm/05-CallbacksNString/ABsubstring.c	/^int efficient_count(char *str, char start, char end) {$/;"	f	typeref:typename:int
+end	UE20CS202-DataStructures/TrieTrees/1_1.h	/^    bool end;$/;"	m	struct:node	typeref:typename:bool
+end	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/1_1.h	/^    bool end;$/;"	m	struct:node	typeref:typename:bool
+end	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/1_1.h	/^    bool end;$/;"	m	struct:node	typeref:typename:bool
+end	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/1_1.h	/^    bool end;$/;"	m	struct:node	typeref:typename:bool
+exponential_sort	learning/exponential_search.cpp	/^int exponential_sort(int a[],int n,int x)$/;"	f	typeref:typename:int
+extract_max	UE20CS251-Algorithm/Assignment/Problem_statement_1/PES2UG20CS237_heap.c	/^int extract_max(heap_t *heap, int *count_ptr) {$/;"	f	typeref:typename:int
+fib	UE20CS251-Algorithm/04-Count/fibbonacci/1_1.c	/^int fib(int n){$/;"	f	typeref:typename:int
+fib_with_count	UE20CS251-Algorithm/04-Count/fibbonacci/1_1.c	/^int fib_with_count(int n,int* ptr_count){$/;"	f	typeref:typename:int
+file	UE20CS202-DataStructures/TrieTrees/formatter.py	/^file = open("input.txt","r")$/;"	v
+file	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/formatter.py	/^file = open("input.txt","r")$/;"	v
+file	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/formatter.py	/^file = open("input.txt","r")$/;"	v
+file	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/formatter.py	/^file = open("input.txt","r")$/;"	v
+file2	UE20CS202-DataStructures/TrieTrees/formatter.py	/^file2=open("out.txt","a+")$/;"	v
+file2	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/formatter.py	/^file2=open("out.txt","a+")$/;"	v
+file2	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/formatter.py	/^file2=open("out.txt","a+")$/;"	v
+file2	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/formatter.py	/^file2=open("out.txt","a+")$/;"	v
+files.associations	.vscode/settings.json	/^    "files.associations": {$/;"	o
+fill_matrix	UE20CS251-Algorithm/02-Matrix/1_1.c	/^void fill_matrix(int n, int x[][n]) {$/;"	f	typeref:typename:void
+fill_matrix	UE20CS251-Algorithm/02-Matrix/class_impl/matrix.c	/^void fill_matrix(int n, int x[][n]){$/;"	f	typeref:typename:void
+find_highest_mobile	UE20CS251-Algorithm/JhonsonTrotter/1_1.c	/^int find_highest_mobile(int n, node_t *arr[]) {$/;"	f	typeref:typename:int
+find_max	UE20CS251-Algorithm/Assignment/Problem_statement_1/PES2UG20CS237_heap.c	/^int find_max(const heap_t *heap, int *count_ptr) {$/;"	f	typeref:typename:int
+find_max	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^int find_max(const bst_t *tree, int *count_ptr) {$/;"	f	typeref:typename:int
+find_min	UE20CS251-Algorithm/Assignment/Problem_statement_1/PES2UG20CS237_heap.c	/^int find_min(const heap_t *heap, int *count_ptr) {$/;"	f	typeref:typename:int
+find_min	UE20CS251-Algorithm/sorting/1_1.c	/^int find_min(int a[], int n) {$/;"	f	typeref:typename:int
+find_min_pos	UE20CS251-Algorithm/sorting/1_1.c	/^int find_min_pos(int a[], int n) {$/;"	f	typeref:typename:int
+forward_list	.vscode/settings.json	/^        "forward_list": "cpp",$/;"	s	object:files.associations
+found	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^bool found = false;$/;"	v	typeref:typename:bool
+free_bst	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^void free_bst(bst_t *bst) {$/;"	f	typeref:typename:void
+free_heap	UE20CS251-Algorithm/Assignment/Problem_statement_1/PES2UG20CS237_heap.c	/^void free_heap(heap_t *heap) { free(heap); }$/;"	f	typeref:typename:void
+gen_matrix	UE20CS251-Algorithm/02-Matrix/submission/MatrixAdd/MatrixAddF.c	/^void gen_matrix(int n, int a[][n]) {$/;"	f	typeref:typename:void
+gen_matrix	UE20CS251-Algorithm/02-Matrix/submission/MatrixMul/MatrixMulF.c	/^void gen_matrix(int n, int a[][n]) {$/;"	f	typeref:typename:void
+graphsize	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^#define graphsize /;"	d
+graphsize	UE20CS202-DataStructures/GraphsList/1_1.h	/^#define graphsize /;"	d
+graphsize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.h	/^#define graphsize /;"	d
+graphsize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.h	/^#define graphsize /;"	d
+graphsize	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.h	/^#define graphsize /;"	d
+graphvertices	UE20CS202-DataStructures/GraphsMatrix/1_1.h	/^#define graphvertices /;"	d
+graphvertices	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.h	/^#define graphvertices /;"	d
+graphvertices	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.h	/^#define graphvertices /;"	d
+graphvertices	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.h	/^#define graphvertices /;"	d
+head	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^struct head {$/;"	s
+head	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/DEqueue/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/InfixToPostfix/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/InfixToPrefix/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/PostfixEval/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/QueueLinkedList/1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/SingleLinkedList/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/StackLinkedList/1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.h	/^struct head{$/;"	s
+head	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/1.h	/^struct head{$/;"	s
+head_	UE20CS251-Algorithm/03-Recursion/list/1_1.h	/^  node_t *head_;$/;"	m	struct:list	typeref:typename:node_t *
+heap	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap.h	/^struct heap$/;"	s
+heap	UE20CS251-Algorithm/heaps/1_1.h	/^struct heap {$/;"	s
+heap_t	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap.h	/^typedef struct heap heap_t;$/;"	t	typeref:struct:heap
+heap_t	UE20CS251-Algorithm/heaps/1_1.h	/^typedef struct heap heap_t;$/;"	t	typeref:struct:heap
+heapify	UE20CS251-Algorithm/heaps/1_1.c	/^void heapify(heap_t *heap_ptr) {$/;"	f	typeref:typename:void
+heapify_	UE20CS251-Algorithm/heaps/1_1.c	/^static void heapify_(int *p, int n, int i) {$/;"	f	typeref:typename:void	file:
+heapsort	UE20CS251-Algorithm/heaps/1_1.c	/^void heapsort(heap_t *heap_ptr) {$/;"	f	typeref:typename:void
+height	UE20CS202-DataStructures/AVL/1_1.h	/^    int height; \/\/very imp to easily calc BF$/;"	m	struct:node	typeref:typename:int
+hit	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  bool hit;$/;"	m	struct:sp_mat	typeref:typename:bool
+id	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^    int id;$/;"	m	struct:head	typeref:typename:int
+id	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^    int id;$/;"	m	struct:node	typeref:typename:int
+idn_matrix	UE20CS251-Algorithm/02-Matrix/1_1.c	/^void idn_matrix(int n, int a[][n]) {$/;"	f	typeref:typename:void
+indegree	UE20CS251-Algorithm/05-Topological_Sort/1_1.c	/^static int indegree(int (*a)[1000], int key_check) {$/;"	f	typeref:typename:int	file:
+infixpost	UE20CS202-DataStructures/InfixToPostfix/main.c	/^void infixpost(struct head* head , char* input)$/;"	f	typeref:typename:void
+infixpost	UE20CS202-DataStructures/InfixToPrefix/main.c	/^void infixpost(struct head* head , char* input,char* ans)$/;"	f	typeref:typename:void
+infixpost	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/main.c	/^void infixpost(struct head* head , char* input)$/;"	f	typeref:typename:void
+infixpost	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/main.c	/^void infixpost(struct head* head , char* input,char* ans)$/;"	f	typeref:typename:void
+init_and_input	UE20CS251-Algorithm/JhonsonTrotter/1_1.c	/^void init_and_input(int n, node_t *arr[]) {$/;"	f	typeref:typename:void
+init_array	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^void init_array(Array *arr) $/;"	f	typeref:typename:void
+init_bst	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^void init_bst(bst_t *bst) {$/;"	f	typeref:typename:void
+init_heap	UE20CS251-Algorithm/Assignment/Problem_statement_1/PES2UG20CS237_heap.c	/^void init_heap(heap_t *heap, int max_size) {$/;"	f	typeref:typename:void
+init_list	UE20CS251-Algorithm/03-Recursion/list/list.c	/^void init_list(list_t *list) { list->head_ = NULL; }$/;"	f	typeref:typename:void
+init_matrix	UE20CS251-Algorithm/02-Matrix/1_1.c	/^void init_matrix(int n, int x[][n]) {$/;"	f	typeref:typename:void
+init_matrix	UE20CS251-Algorithm/02-Matrix/class_impl/matrix.c	/^void init_matrix(int n,int a[][n]){$/;"	f	typeref:typename:void
+initializer_list	.vscode/settings.json	/^        "initializer_list": "cpp",$/;"	s	object:files.associations
+insert	UE20CS251-Algorithm/Assignment/Problem_statement_1/PES2UG20CS237_heap.c	/^void insert(heap_t *heap, int key, int *count_ptr) {$/;"	f	typeref:typename:void
+insert	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^void insert(bst_t *tree, int key, int *count_ptr) {$/;"	f	typeref:typename:void
+insert	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^int insert(Array *arr, int key, int *count_ptr)$/;"	f	typeref:typename:int
+insert_edge	UE20CS251-Algorithm/05-Topological_Sort/1_1.c	/^void insert_edge(int (*a)[1000], int key1, int key2) { a[key1][key2] = 1; }$/;"	f	typeref:typename:void
+insertionsort	1-Sorting/Algorithms/insertion_sort.cpp	/^void insertionsort(int a[],int n)$/;"	f	typeref:typename:void
+insertnode	UE20CS202-DataStructures/SingleLinkedList/1_1.c	/^void insertnode(struct head* top , int pos , int value)$/;"	f	typeref:typename:void
+insertnode	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.c	/^void insertnode(struct head* top , int pos , int value)$/;"	f	typeref:typename:void
+insertnode	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.c	/^void insertnode(struct head* top , int pos , int value)$/;"	f	typeref:typename:void
+intlimit	problems/10-TrailingZeros.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/11-CoinPiles.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/12-PalindromeReorder.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/13-Tower_Of_Hanoi.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/2-Missing_Number.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/3-Repetitions.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/4-Increasing_Array.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/5-Permutations.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/6-Number_Spiral.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/7-Two_Knights.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/8-TwoSets.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/9-BitStrings.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/Airline_Restrictions.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/Apartments.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/Apple_Division.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/BuildingTeams.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/Create_String.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/Shuffling_Parities.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/Travel_Pass.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/XOR_Equal.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/calculate.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/ferriswheel.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/minimum_digit_sum.cpp	/^#define intlimit /;"	d	file:
+intlimit	problems/prob1.cpp	/^#define intlimit /;"	d	file:
+intlimit	template_1.cpp	/^#define intlimit /;"	d	file:
+iostream	.vscode/settings.json	/^        "iostream": "cpp",$/;"	s	object:files.associations
+is_all	UE20CS251-Algorithm/05-CallbacksNString/callback/1_1.c	/^int is_all(int *a, int n, int (*fn)(int)) {$/;"	f	typeref:typename:int
+is_any	UE20CS251-Algorithm/05-CallbacksNString/callback/1_1.c	/^int is_any(int *a, int n, int (*fn)(int)) {$/;"	f	typeref:typename:int
+johnson_trotter	UE20CS251-Algorithm/JhonsonTrotter/1_1.c	/^void johnson_trotter(int n, node_t *arr[]) {$/;"	f	typeref:typename:void
+key	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst.h	/^    int key;$/;"	m	struct:node	typeref:typename:int
+key_	UE20CS251-Algorithm/03-Recursion/list/1_1.h	/^  int key_;$/;"	m	struct:node	typeref:typename:int
+key_	UE20CS251-Algorithm/heaps/1_1.h	/^  int key_[1];$/;"	m	struct:heap	typeref:typename:int[1]
+l	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^    struct node* l; $/;"	m	struct:node	typeref:struct:node *
+l	UE20CS202-DataStructures/BinarySearchTreeLinkedList/1_1.h	/^    struct node* l;$/;"	m	struct:node	typeref:struct:node *
+l	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct node* l; $/;"	m	struct:node	typeref:struct:node *
+l	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^    struct node* l;$/;"	m	struct:node	typeref:struct:node *
+l	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct node* l; $/;"	m	struct:node	typeref:struct:node *
+l	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^    struct node* l;$/;"	m	struct:node	typeref:struct:node *
+l	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct node* l; $/;"	m	struct:node	typeref:struct:node *
+l	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^    struct node* l;$/;"	m	struct:node	typeref:struct:node *
+lab progs :	UE20CS251-Algorithm/Notes/Unit-1/session-3.md	/^## lab progs :$/;"	s	chapter:Session-3 : Lab
+left	UE20CS202-DataStructures/AVL/1_1.h	/^    struct node* left;$/;"	m	struct:node	typeref:struct:node *
+left	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst.h	/^    struct node *left;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  struct node *link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  struct node *link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^    struct node* link; \/\/we dont need left right crap , cus graph :)) , directed also.$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/DEqueue/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/DEqueue/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/GraphsList/1_1.h	/^    struct node *link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/GraphsList/1_1.h	/^    struct node* link;$/;"	m	struct:root	typeref:struct:node *
+link	UE20CS202-DataStructures/HashTableOpenHashing/1_1.h	/^  struct person* link; \/\/for seperate chaining$/;"	m	struct:person	typeref:struct:person *
+link	UE20CS202-DataStructures/InfixToPostfix/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/InfixToPostfix/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/InfixToPrefix/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/InfixToPrefix/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/PostfixEval/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/PostfixEval/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/QueueLinkedList/1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/QueueLinkedList/1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/SingleLinkedList/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/SingleLinkedList/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/StackLinkedList/1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/StackLinkedList/1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.h	/^    struct node *link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.h	/^    struct node* link;$/;"	m	struct:root	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^  struct person* link; \/\/for seperate chaining$/;"	m	struct:person	typeref:struct:person *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/1.h	/^    struct node* link;$/;"	m	struct:head	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/1.h	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.h	/^    struct node *link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.h	/^    struct node* link;$/;"	m	struct:root	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^  struct person* link; \/\/for seperate chaining$/;"	m	struct:person	typeref:struct:person *
+link	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.h	/^    struct node *link;$/;"	m	struct:node	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.h	/^    struct node* link;$/;"	m	struct:root	typeref:struct:node *
+link	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^  struct person* link; \/\/for seperate chaining$/;"	m	struct:person	typeref:struct:person *
+list	.vscode/settings.json	/^        "list": "cpp",$/;"	s	object:files.associations
+list	UE20CS251-Algorithm/03-Recursion/list/1_1.h	/^struct list {$/;"	s
+list_t	UE20CS251-Algorithm/03-Recursion/list/1_1.h	/^typedef struct list list_t;$/;"	t	typeref:struct:list
+ll	UE20CS202-DataStructures/HashTableLinearProbing/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/HashTableOpenHashing/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/HashTableQuadratic/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^typedef long long int ll;$/;"	t	typeref:typename:long long int
+ll	learning/coin_DP_problem.cpp	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/1-Weird_Algorithm.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/10-TrailingZeros.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/11-CoinPiles.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/12-PalindromeReorder.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/13-Tower_Of_Hanoi.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/2-Missing_Number.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/3-Repetitions.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/4-Increasing_Array.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/5-Permutations.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/6-Number_Spiral.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/7-Two_Knights.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/8-TwoSets.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/9-BitStrings.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/Airline_Restrictions.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/Apartments.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/Apple_Division.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/BuildingTeams.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/Create_String.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/Maximum Subarray Sum.cpp	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/Research Team.cpp	/^typedef long long int ll; $/;"	t	typeref:typename:long long int	file:
+ll	problems/Shuffling_Parities.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/Travel_Pass.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/XOR_Equal.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/calculate.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/ferriswheel.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/greedy_flowrist.cpp	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/least_diff.cpp	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/luck_balance.cpp	/^typedef long long ll;$/;"	t	typeref:typename:long long	file:
+ll	problems/minimum_digit_sum.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	problems/prob1.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+ll	template_1.cpp	/^typedef long long int ll;$/;"	t	typeref:typename:long long int	file:
+long	1-Sorting/Algorithms/bubble_sort.cpp	/^#define long /;"	d	file:
+long	1-Sorting/Algorithms/insertion_sort.cpp	/^#define long /;"	d	file:
+long	1-Sorting/Algorithms/merge_sort.cpp	/^#define long /;"	d	file:
+long	1-Sorting/Algorithms/quick_sort.cpp	/^#define long /;"	d	file:
+long	1-Sorting/Algorithms/selection_sort.cpp	/^#define long /;"	d	file:
+long	1-Sorting/Problems/ExaminBerSU-EasyVersion.cpp	/^#define long /;"	d	file:
+long	1-Sorting/Problems/TMT_Docutment.cpp	/^#define long /;"	d	file:
+long	problems/k_goodness.cpp	/^#define long /;"	d	file:
+long_loop	UE20CS251-Algorithm/02-Matrix/submission/Time/TimeF.c	/^long long int long_loop() {$/;"	f	typeref:typename:long long int
+loop	problems/Airline_Restrictions.cpp	/^#define loop(/;"	d	file:
+loop	problems/Apartments.cpp	/^#define loop(/;"	d	file:
+loop	problems/Apple_Division.cpp	/^#define loop(/;"	d	file:
+loop	problems/BuildingTeams.cpp	/^#define loop(/;"	d	file:
+loop	problems/Create_String.cpp	/^#define loop(/;"	d	file:
+loop	problems/Shuffling_Parities.cpp	/^#define loop(/;"	d	file:
+loop	problems/Travel_Pass.cpp	/^#define loop(/;"	d	file:
+loop	problems/XOR_Equal.cpp	/^#define loop(/;"	d	file:
+loop	problems/minimum_digit_sum.cpp	/^#define loop(/;"	d	file:
+loop	problems/prob1.cpp	/^#define loop(/;"	d	file:
+loop	template_1.cpp	/^#define loop(/;"	d	file:
+m	problems/9-BitStrings.cpp	/^ll m=1000000007;$/;"	v	typeref:typename:ll
+main	1-Sorting/Algorithms/bubble_sort.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	1-Sorting/Algorithms/insertion_sort.cpp	/^int main()$/;"	f	typeref:typename:int
+main	1-Sorting/Algorithms/merge_sort.cpp	/^int main()$/;"	f	typeref:typename:int
+main	1-Sorting/Algorithms/quick_sort.cpp	/^int main()$/;"	f	typeref:typename:int
+main	1-Sorting/Algorithms/selection_sort.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	1-Sorting/Problems/ExaminBerSU-EasyVersion.cpp	/^int main()$/;"	f	typeref:typename:int
+main	1-Sorting/Problems/TMT_Docutment.cpp	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/AVL/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_C.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_C.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/BSTIterativeTraversal/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/BinarySearchTreeArrays/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/BinarySearchTreeLinkedList/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/CircularQueue/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/DEqueue/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/GraphsList/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/GraphsMatrix/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/HashTableLinearProbing/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/HashTableOpenHashing/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/HashTableQuadratic/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/Heaps/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/InfixToPostfix/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/InfixToPrefix/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/Misc_Programs/1-recursion.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/Misc_Programs/MatricMul.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/PostfixEval/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/QueueArrays/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/QueueLinkedList/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/SingleLinkedList/LinkedList.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/StackArrays/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/StackLinkedList/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/TrieTrees/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-1/Misc_Programs/1-recursion.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-1/Misc_Programs/MatricMul.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/LinkedList.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/CircularQueue/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/QueueArrays/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/StackArrays/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/Misc_Programs/1-recursion.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/Misc_Programs/MatricMul.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/LinkedList.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/CircularQueue/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/QueueArrays/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackArrays/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeArrays/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeLinkedList/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/Heaps/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/CircularQueue/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/QueueArrays/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackArrays/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeArrays/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeLinkedList/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/Heaps/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeArrays/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeLinkedList/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-3/Heaps/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/01-TimingProgram/hello.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/01-TimingProgram/hello.s	/^main:$/;"	l
+main	UE20CS251-Algorithm/01-TimingProgram/main.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/01-TimingProgram/main.s	/^main:$/;"	l
+main	UE20CS251-Algorithm/02-Matrix/class_impl/client.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/02-Matrix/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/02-Matrix/submission/IdentityMatrix/IdentityMatrixC.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/02-Matrix/submission/MatrixAdd/MatrixAddC.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/02-Matrix/submission/MatrixMul/MatrixMulC.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/02-Matrix/submission/RandomMatrix/RandomMatrixC.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/02-Matrix/submission/Time/TimeC.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/03-Recursion/basics/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/03-Recursion/list/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/03-Recursion/string/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/04-Count/fibbonacci/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/04-Count/power/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/04-Count/search/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/04-Count/tower_of_hanoi/main.c	/^int main(){$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/05-CallbacksNString/ABsubstring.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/05-CallbacksNString/callback/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/05-Topological_Sort/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap_client.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst_client.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/Assignment/sample_problem/array_client.c	/^int main()$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/HoarePartition/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/JhonsonTrotter/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/heaps/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/merge_sort/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	UE20CS251-Algorithm/sorting/main.c	/^int main() {$/;"	f	typeref:typename:int
+main	ctemplate.c	/^int main(){$/;"	f	typeref:typename:int
+main	learning/BFS.cpp	/^int main()$/;"	f	typeref:typename:int
+main	learning/DFS.cpp	/^int main()$/;"	f	typeref:typename:int
+main	learning/LIS(O(nlogn)).cpp	/^int main()$/;"	f	typeref:typename:int
+main	learning/coin_DP_problem.cpp	/^int main()$/;"	f	typeref:typename:int
+main	learning/connected.cpp	/^int main()$/;"	f	typeref:typename:int
+main	learning/edit_distance.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	learning/exponential_search.cpp	/^int main()$/;"	f	typeref:typename:int
+main	learning/knapsack_problem.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/1-Weird_Algorithm.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	problems/10-TrailingZeros.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/11-CoinPiles.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/12-PalindromeReorder.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/13-Tower_Of_Hanoi.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/2-Missing_Number.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/3-Repetitions.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/4-Increasing_Array.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/5-Permutations.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/6-Number_Spiral.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/7-Two_Knights.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/8-TwoSets.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/9-BitStrings.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Airline_Restrictions.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Apartments.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Apple_Division.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	problems/BuildingTeams.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Create_String.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Maximum Subarray Sum.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Min_Max.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Minimum Time Required.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Multicolored Cycles.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	problems/Pairs.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Research Team.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Shuffling_Parities.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Travel_Pass.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/Triple_sum.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/XOR_Equal.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/calculate.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	problems/ferriswheel.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/greedy_flowrist.cpp	/^ int main()$/;"	f	typeref:typename:int
+main	problems/k_goodness.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/least_diff.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/luck_balance.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/minimum_digit_sum.cpp	/^int main()$/;"	f	typeref:typename:int
+main	problems/prob1.cpp	/^int main()$/;"	f	typeref:typename:int
+main	template_1.cpp	/^int main()$/;"	f	typeref:typename:int
+maploop	problems/Airline_Restrictions.cpp	/^#define maploop(/;"	d	file:
+maploop	problems/Apartments.cpp	/^#define maploop(/;"	d	file:
+maploop	problems/Apple_Division.cpp	/^#define maploop(/;"	d	file:
+maploop	problems/BuildingTeams.cpp	/^#define maploop(/;"	d	file:
+maploop	problems/Create_String.cpp	/^#define maploop(/;"	d	file:
+maploop	problems/Shuffling_Parities.cpp	/^#define maploop(/;"	d	file:
+maploop	problems/Travel_Pass.cpp	/^#define maploop(/;"	d	file:
+maploop	problems/XOR_Equal.cpp	/^#define maploop(/;"	d	file:
+maploop	problems/minimum_digit_sum.cpp	/^#define maploop(/;"	d	file:
+maploop	problems/prob1.cpp	/^#define maploop(/;"	d	file:
+maploop	template_1.cpp	/^#define maploop(/;"	d	file:
+max	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^int max(const Array *arr, int *count_ptr)$/;"	f	typeref:typename:int
+max_size	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap.h	/^    int max_size;$/;"	m	struct:heap	typeref:typename:int
+measurement	UE20CS251-Algorithm/Notes/Unit-1/session-2.md	/^## measurement $/;"	s	chapter:Session-2
+mergesort	1-Sorting/Algorithms/merge_sort.cpp	/^void mergesort(int a[],int l,int r)$/;"	f	typeref:typename:void
+mergesort	1-Sorting/Problems/ExaminBerSU-EasyVersion.cpp	/^void mergesort(int a[],int l,int r)$/;"	f	typeref:typename:void
+min	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^int min(const Array *arr, int *count_ptr)$/;"	f	typeref:typename:int
+msort	UE20CS251-Algorithm/merge_sort/1_1.c	/^void msort(int a[], int n) { _msort(a, 0, n - 1); }$/;"	f	typeref:typename:void
+mul	UE20CS251-Algorithm/05-CallbacksNString/callback/1_1.c	/^int mul(int x, int y) { return x * y; }$/;"	f	typeref:typename:int
+mul_matrix	UE20CS251-Algorithm/02-Matrix/1_1.c	/^void mul_matrix(int n, int a[][n], int b[][n], int c[][n]) {$/;"	f	typeref:typename:void
+mul_matrix	UE20CS251-Algorithm/02-Matrix/class_impl/matrix.c	/^void mul_matrix(int n,int a[][n],int b[][n],int c[][n]){$/;"	f	typeref:typename:void
+mul_matrix	UE20CS251-Algorithm/02-Matrix/submission/MatrixMul/MatrixMulF.c	/^void mul_matrix(int n, int a[][n], int b[][n], int c[][n]) {$/;"	f	typeref:typename:void
+mulmat	UE20CS202-DataStructures/Misc_Programs/MatricMul.c	/^void mulmat(int** a , int** b ,int** c , int n)$/;"	f	typeref:typename:void
+mulmat	UE20CS202-DataStructures/unit-sorting/unit-1/Misc_Programs/MatricMul.c	/^void mulmat(int** a , int** b ,int** c , int n)$/;"	f	typeref:typename:void
+mulmat	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/Misc_Programs/MatricMul.c	/^void mulmat(int** a , int** b ,int** c , int n)$/;"	f	typeref:typename:void
+mystrcmp	UE20CS251-Algorithm/03-Recursion/string/string.c	/^int mystrcmp(char *str1, char *str2) { return _cmp(str1, str2, 0); }$/;"	f	typeref:typename:int
+mystrcpy	UE20CS251-Algorithm/03-Recursion/string/string.c	/^void mystrcpy(char *dst, char *src) {$/;"	f	typeref:typename:void
+mystrlen	UE20CS251-Algorithm/03-Recursion/string/string.c	/^int mystrlen(char *str) { return _len(str, 1); }$/;"	f	typeref:typename:int
+n	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^    struct node* n; $/;"	m	struct:vnode	typeref:struct:node *
+n	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct node* n; $/;"	m	struct:vnode	typeref:struct:node *
+n	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct node* n; $/;"	m	struct:vnode	typeref:struct:node *
+n	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct node* n; $/;"	m	struct:vnode	typeref:struct:node *
+n	UE20CS251-Algorithm/Assignment/sample_problem/array.h	/^    int n;$/;"	m	struct:array	typeref:typename:int
+name	UE20CS202-DataStructures/HashTableLinearProbing/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/HashTableOpenHashing/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/HashTableQuadratic/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+name	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^  char name[30];$/;"	m	struct:person	typeref:typename:char[30]
+next_	UE20CS251-Algorithm/03-Recursion/list/1_1.h	/^  struct node *next_;$/;"	m	struct:node	typeref:struct:node *
+no_node	UE20CS251-Algorithm/03-Recursion/list/list.c	/^int no_node(list_t *list) { return _count(list->head_); }$/;"	f	typeref:typename:int
+node	UE20CS202-DataStructures/AVL/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^struct node {$/;"	s
+node	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^struct node{ $/;"	s
+node	UE20CS202-DataStructures/BinarySearchTreeLinkedList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/DEqueue/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/GraphsList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/InfixToPostfix/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/InfixToPrefix/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/PostfixEval/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/QueueLinkedList/1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/SingleLinkedList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/StackLinkedList/1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/TrieTrees/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^struct node{ $/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/TrieTrees/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^struct node{ $/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/TrieTrees/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^struct node{ $/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.h	/^struct node{$/;"	s
+node	UE20CS202-DataStructures/unit-sorting/unit-5/TrieTrees/1_1.h	/^struct node{$/;"	s
+node	UE20CS251-Algorithm/03-Recursion/list/1_1.h	/^struct node {$/;"	s
+node	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst.h	/^struct node$/;"	s
+node	UE20CS251-Algorithm/JhonsonTrotter/1_1.h	/^struct node {$/;"	s
+node_t	UE20CS251-Algorithm/03-Recursion/list/1_1.h	/^typedef struct node node_t;$/;"	t	typeref:struct:node
+node_t	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst.h	/^typedef struct node node_t;$/;"	t	typeref:struct:node
+node_t	UE20CS251-Algorithm/JhonsonTrotter/1_1.h	/^typedef struct node node_t;$/;"	t	typeref:struct:node
+nodes	UE20CS202-DataStructures/SingleLinkedList/1_1.h	/^    int nodes;$/;"	m	struct:head	typeref:typename:int
+nodes	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^    int nodes;$/;"	m	struct:head	typeref:typename:int
+nodes	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.h	/^    int nodes;$/;"	m	struct:head	typeref:typename:int
+odd	UE20CS251-Algorithm/05-CallbacksNString/callback/1_1.c	/^int odd(int x) {$/;"	f	typeref:typename:int
+ordered_insert	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap_client.c	/^void ordered_insert(heap_t *b, int n, int p) {$/;"	f	typeref:typename:void
+ordered_insert	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst_client.c	/^void ordered_insert(bst_t *b, int n, int p) {$/;"	f	typeref:typename:void
+ordered_insert	UE20CS251-Algorithm/Assignment/sample_problem/array_client.c	/^void ordered_insert(Array *arr, int n, int p)$/;"	f	typeref:typename:void
+outdegree	UE20CS251-Algorithm/05-Topological_Sort/1_1.c	/^static int outdegree(int (*a)[1000], int key_check) {$/;"	f	typeref:typename:int	file:
+partition	UE20CS251-Algorithm/HoarePartition/1_1.c	/^int partition(int a[], int l, int r) {$/;"	f	typeref:typename:int
+pathAdd	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^void pathAdd(int *path, int id) {$/;"	f	typeref:typename:void
+pathDelete	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^void pathDelete(int *path) {$/;"	f	typeref:typename:void
+peek	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_F.c	/^struct sp_mat *peek(struct head *head) {$/;"	f	typeref:struct:sp_mat *
+permute	problems/Create_String.cpp	/^void permute(string s,map<string,int>&m){$/;"	f	typeref:typename:void
+person	UE20CS202-DataStructures/HashTableLinearProbing/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/HashTableOpenHashing/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/HashTableQuadratic/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^struct person {$/;"	s
+person	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^struct person {$/;"	s
+phone	UE20CS202-DataStructures/HashTableLinearProbing/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/HashTableOpenHashing/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/HashTableQuadratic/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+phone	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^  ll phone;$/;"	m	struct:person	typeref:typename:ll
+pivotplacer	1-Sorting/Algorithms/quick_sort.cpp	/^int pivotplacer(int a[],int l,int r)$/;"	f	typeref:typename:int
+pope	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_F.c	/^void pope(struct head *head) {$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.c	/^void pope(struct stack *st) {$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/InfixToPostfix/1_1.c	/^void pope(struct head* head){$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/InfixToPrefix/1_1.c	/^void pope(struct head* head){$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/PostfixEval/1_1.c	/^void pope(struct head* head){$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/StackArrays/1.c	/^void pope(struct stack* st)$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/StackLinkedList/1.c	/^void pope(struct head *head) {$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.c	/^void pope(struct head* head){$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.c	/^void pope(struct head* head){$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.c	/^void pope(struct head* head){$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/StackArrays/1.c	/^void pope(struct stack* st)$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/1.c	/^void pope(struct head *head) {$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackArrays/1.c	/^void pope(struct stack* st)$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/1.c	/^void pope(struct head *head) {$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void pope(struct stack *st) {$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackArrays/1.c	/^void pope(struct stack* st)$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/1.c	/^void pope(struct head *head) {$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void pope(struct stack *st) {$/;"	f	typeref:typename:void
+pope	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void pope(struct stack *st) {$/;"	f	typeref:typename:void
+populate	UE20CS251-Algorithm/04-Count/search/1_1.c	/^void populate(int a[],int n){$/;"	f	typeref:typename:void
+postfixeval	UE20CS202-DataStructures/PostfixEval/main.c	/^void postfixeval(struct head* head , char* input)$/;"	f	typeref:typename:void
+postfixeval	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/main.c	/^void postfixeval(struct head* head , char* input)$/;"	f	typeref:typename:void
+power	UE20CS251-Algorithm/04-Count/power/1_1.c	/^int power(int b,int p){$/;"	f	typeref:typename:int
+power_with_count	UE20CS251-Algorithm/04-Count/power/1_1.c	/^int power_with_count(int b,int p,int* count){$/;"	f	typeref:typename:int
+precedence	UE20CS202-DataStructures/InfixToPostfix/main.c	/^int precedence(char input)$/;"	f	typeref:typename:int
+precedence	UE20CS202-DataStructures/InfixToPrefix/main.c	/^int precedence(char input)$/;"	f	typeref:typename:int
+precedence	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/main.c	/^int precedence(char input)$/;"	f	typeref:typename:int
+precedence	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/main.c	/^int precedence(char input)$/;"	f	typeref:typename:int
+prepend_list	UE20CS251-Algorithm/03-Recursion/list/list.c	/^void prepend_list(list_t *list, int n) {$/;"	f	typeref:typename:void
+print_hello	UE20CS202-DataStructures/Misc_Programs/1-recursion.c	/^void print_hello(int n)$/;"	f	typeref:typename:void
+print_hello	UE20CS202-DataStructures/unit-sorting/unit-1/Misc_Programs/1-recursion.c	/^void print_hello(int n)$/;"	f	typeref:typename:void
+print_hello	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/Misc_Programs/1-recursion.c	/^void print_hello(int n)$/;"	f	typeref:typename:void
+print_identity	UE20CS251-Algorithm/02-Matrix/submission/IdentityMatrix/IdentityMatrixF.c	/^void print_identity(int n) {$/;"	f	typeref:typename:void
+print_if	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap_client.c	/^int print_if(int i) {$/;"	f	typeref:typename:int
+print_if	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst_client.c	/^int print_if(int i) {$/;"	f	typeref:typename:int
+print_if	UE20CS251-Algorithm/Assignment/sample_problem/array_client.c	/^int print_if(int i)$/;"	f	typeref:typename:int
+print_matrix	UE20CS251-Algorithm/02-Matrix/submission/MatrixAdd/MatrixAddF.c	/^void print_matrix(int n, int a[][n]) {$/;"	f	typeref:typename:void
+print_matrix	UE20CS251-Algorithm/02-Matrix/submission/MatrixMul/MatrixMulF.c	/^void print_matrix(int n, int a[][n]) {$/;"	f	typeref:typename:void
+print_rand	UE20CS251-Algorithm/02-Matrix/submission/RandomMatrix/RandomMatrixF.c	/^void print_rand(int n) {$/;"	f	typeref:typename:void
+print_sum	UE20CS251-Algorithm/02-Matrix/submission/MatrixAdd/MatrixAddF.c	/^void print_sum(int n, int a[][n], int b[][n]) {$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_F.c	/^void pushe(struct head *head, struct sp_mat *d) {$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.c	/^void pushe(struct stack *st, struct vnode *d) {$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/InfixToPostfix/1_1.c	/^void pushe(struct head* head , char d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/InfixToPrefix/1_1.c	/^void pushe(struct head* head , char d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/PostfixEval/1_1.c	/^void pushe(struct head* head , char d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/StackArrays/1.c	/^void pushe(struct stack* st , int d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/StackLinkedList/1.c	/^void pushe(struct head *head, int d) {$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.c	/^void pushe(struct head* head , char d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.c	/^void pushe(struct head* head , char d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.c	/^void pushe(struct head* head , char d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/StackArrays/1.c	/^void pushe(struct stack* st , int d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/1.c	/^void pushe(struct head *head, int d) {$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackArrays/1.c	/^void pushe(struct stack* st , int d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/1.c	/^void pushe(struct head *head, int d) {$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void pushe(struct stack *st, struct vnode *d) {$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackArrays/1.c	/^void pushe(struct stack* st , int d)$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/1.c	/^void pushe(struct head *head, int d) {$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void pushe(struct stack *st, struct vnode *d) {$/;"	f	typeref:typename:void
+pushe	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^void pushe(struct stack *st, struct vnode *d) {$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^void queuedisplay(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/CircularQueue/1.c	/^void queuedisplay(int* queue , int* top, int* front)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/DEqueue/1_1.c	/^void queuedisplay(struct head* queue)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/QueueArrays/1.c	/^void queuedisplay(int* queue , int* top, int* front)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/QueueLinkedList/1.c	/^void queuedisplay(struct head* queue)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.c	/^void queuedisplay(struct head* queue)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/CircularQueue/1.c	/^void queuedisplay(int* queue , int* top, int* front)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuedisplay(struct head* queue)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/QueueArrays/1.c	/^void queuedisplay(int* queue , int* top, int* front)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.c	/^void queuedisplay(struct head* queue)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/CircularQueue/1.c	/^void queuedisplay(int* queue , int* top, int* front)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuedisplay(struct head* queue)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/QueueArrays/1.c	/^void queuedisplay(int* queue , int* top, int* front)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/CircularQueue/1.c	/^void queuedisplay(int* queue , int* top, int* front)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuedisplay(struct head* queue)$/;"	f	typeref:typename:void
+queuedisplay	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/QueueArrays/1.c	/^void queuedisplay(int* queue , int* top, int* front)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^int queuepeek(int *queue, int *top, int *front) { return *(queue + *front); }$/;"	f	typeref:typename:int
+queuepeek	UE20CS202-DataStructures/CircularQueue/1.c	/^void queuepeek(int* queue , int* top , int* front)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/DEqueue/1_1.c	/^void queuepeek(struct head* queue)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/GraphsList/1_1.c	/^int queuepeek(int *queue, int *top, int *front) {$/;"	f	typeref:typename:int
+queuepeek	UE20CS202-DataStructures/QueueArrays/1.c	/^void queuepeek(int* queue , int* top , int* front)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/QueueLinkedList/1.c	/^void queuepeek(struct head* queue)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.c	/^void queuepeek(struct head* queue)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/CircularQueue/1.c	/^void queuepeek(int* queue , int* top , int* front)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepeek(struct head* queue)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/QueueArrays/1.c	/^void queuepeek(int* queue , int* top , int* front)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.c	/^void queuepeek(struct head* queue)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/CircularQueue/1.c	/^void queuepeek(int* queue , int* top , int* front)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepeek(struct head* queue)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/QueueArrays/1.c	/^void queuepeek(int* queue , int* top , int* front)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.c	/^int queuepeek(int *queue, int *top, int *front) {$/;"	f	typeref:typename:int
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/CircularQueue/1.c	/^void queuepeek(int* queue , int* top , int* front)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepeek(struct head* queue)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/QueueArrays/1.c	/^void queuepeek(int* queue , int* top , int* front)$/;"	f	typeref:typename:void
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.c	/^int queuepeek(int *queue, int *top, int *front) {$/;"	f	typeref:typename:int
+queuepeek	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.c	/^int queuepeek(int *queue, int *top, int *front) {$/;"	f	typeref:typename:int
+queuepop	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^void queuepop(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/CircularQueue/1.c	/^void queuepop(int* queue,int* top , int* front)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/DEqueue/1_1.c	/^void queuepop(struct head* queue)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/GraphsList/1_1.c	/^void queuepop(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^void queuepop(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/QueueArrays/1.c	/^void queuepop(int* queue,int* top , int* front)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/QueueLinkedList/1.c	/^void queuepop(struct head* queue)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.c	/^void queuepop(struct head* queue)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/CircularQueue/1.c	/^void queuepop(int* queue,int* top , int* front)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepop(struct head* queue)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/QueueArrays/1.c	/^void queuepop(int* queue,int* top , int* front)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.c	/^void queuepop(struct head* queue)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/CircularQueue/1.c	/^void queuepop(int* queue,int* top , int* front)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepop(struct head* queue)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/QueueArrays/1.c	/^void queuepop(int* queue,int* top , int* front)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.c	/^void queuepop(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void queuepop(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/CircularQueue/1.c	/^void queuepop(int* queue,int* top , int* front)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepop(struct head* queue)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/QueueArrays/1.c	/^void queuepop(int* queue,int* top , int* front)$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.c	/^void queuepop(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void queuepop(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.c	/^void queuepop(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuepop	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void queuepop(int *queue, int *top, int *front) {$/;"	f	typeref:typename:void
+queuepopback	UE20CS202-DataStructures/DEqueue/1_1.c	/^void queuepopback(struct head *queue)$/;"	f	typeref:typename:void
+queuepopback	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepopback(struct head *queue)$/;"	f	typeref:typename:void
+queuepopback	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepopback(struct head *queue)$/;"	f	typeref:typename:void
+queuepopback	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepopback(struct head *queue)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_F.c	/^void queuepush(int *queue, int *top, int *front, int e) {$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/CircularQueue/1.c	/^void queuepush(int* queue , int* top , int* front,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/DEqueue/1_1.c	/^void queuepush(struct head* queue,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/GraphsList/1_1.c	/^void queuepush(int *queue, int *top, int *front, int e) {$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/GraphsMatrix/1_1.c	/^void queuepush(int *queue, int *top, int *front, int e) {$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/QueueArrays/1.c	/^void queuepush(int* queue , int* top , int* front,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/QueueLinkedList/1.c	/^void queuepush(struct head* queue,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.c	/^void queuepush(struct head* queue,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/CircularQueue/1.c	/^void queuepush(int* queue , int* top , int* front,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepush(struct head* queue,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/QueueArrays/1.c	/^void queuepush(int* queue , int* top , int* front,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.c	/^void queuepush(struct head* queue,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/CircularQueue/1.c	/^void queuepush(int* queue , int* top , int* front,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepush(struct head* queue,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/QueueArrays/1.c	/^void queuepush(int* queue , int* top , int* front,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.c	/^void queuepush(int *queue, int *top, int *front, int e) {$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void queuepush(int *queue, int *top, int *front, int e) {$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/CircularQueue/1.c	/^void queuepush(int* queue , int* top , int* front,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepush(struct head* queue,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/QueueArrays/1.c	/^void queuepush(int* queue , int* top , int* front,int e)$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.c	/^void queuepush(int *queue, int *top, int *front, int e) {$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void queuepush(int *queue, int *top, int *front, int e) {$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.c	/^void queuepush(int *queue, int *top, int *front, int e) {$/;"	f	typeref:typename:void
+queuepush	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsMatrix/1_1.c	/^void queuepush(int *queue, int *top, int *front, int e) {$/;"	f	typeref:typename:void
+queuepushfront	UE20CS202-DataStructures/DEqueue/1_1.c	/^void queuepushfront(struct head *queue, int e)$/;"	f	typeref:typename:void
+queuepushfront	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepushfront(struct head *queue, int e)$/;"	f	typeref:typename:void
+queuepushfront	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepushfront(struct head *queue, int e)$/;"	f	typeref:typename:void
+queuepushfront	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.c	/^void queuepushfront(struct head *queue, int e)$/;"	f	typeref:typename:void
+quick_sort	UE20CS251-Algorithm/HoarePartition/1_1.c	/^void quick_sort(int a[], int l, int r) {$/;"	f	typeref:typename:void
+quicksort	1-Sorting/Algorithms/quick_sort.cpp	/^void quicksort(int a[],int l,int r)$/;"	f	typeref:typename:void
+r	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^    struct node* r; $/;"	m	struct:node	typeref:struct:node *
+r	UE20CS202-DataStructures/BinarySearchTreeLinkedList/1_1.h	/^    struct node* r;$/;"	m	struct:node	typeref:struct:node *
+r	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct node* r; $/;"	m	struct:node	typeref:struct:node *
+r	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^    struct node* r;$/;"	m	struct:node	typeref:struct:node *
+r	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct node* r; $/;"	m	struct:node	typeref:struct:node *
+r	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^    struct node* r;$/;"	m	struct:node	typeref:struct:node *
+r	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    struct node* r; $/;"	m	struct:node	typeref:struct:node *
+r	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeLinkedList/1_1.h	/^    struct node* r;$/;"	m	struct:node	typeref:struct:node *
+randomize_insert	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap_client.c	/^void randomize_insert(heap_t *b, int n, int p) {$/;"	f	typeref:typename:void
+randomize_insert	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst_client.c	/^void randomize_insert(bst_t *b, int n, int p) {$/;"	f	typeref:typename:void
+randomize_insert	UE20CS251-Algorithm/Assignment/sample_problem/array_client.c	/^void randomize_insert(Array *arr, int n, int p)$/;"	f	typeref:typename:void
+ranges	.vscode/settings.json	/^        "ranges": "cpp",$/;"	s	object:files.associations
+read	UE20CS251-Algorithm/merge_sort/1_1.c	/^void read(int a[], int m) {$/;"	f	typeref:typename:void
+read_heap	UE20CS251-Algorithm/heaps/1_1.c	/^void read_heap(heap_t *heap_ptr) {$/;"	f	typeref:typename:void
+recursive_sum	problems/minimum_digit_sum.cpp	/^int recursive_sum(int n , int b)$/;"	f	typeref:typename:int
+regex	.vscode/settings.json	/^        "regex": "cpp",$/;"	s	object:files.associations
+remove_element	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^void remove_element(Array *arr, int key, int *count_ptr)$/;"	f	typeref:typename:void
+remove_max	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^int remove_max(Array *arr, int *count_ptr)$/;"	f	typeref:typename:int
+remove_min	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^int remove_min(Array *arr, int *count_ptr)$/;"	f	typeref:typename:int
+reverse_insert	UE20CS251-Algorithm/Assignment/sample_problem/array_client.c	/^void reverse_insert(Array *arr, int n, int p)$/;"	f	typeref:typename:void
+reverse_list	UE20CS251-Algorithm/03-Recursion/list/list.c	/^void reverse_list(list_t *list) { list->head_ = _reverse(list->head_, NULL); }$/;"	f	typeref:typename:void
+reversed_insert	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap_client.c	/^void reversed_insert(heap_t *b, int n, int p) {$/;"	f	typeref:typename:void
+revlist	UE20CS202-DataStructures/SingleLinkedList/1_1.c	/^void revlist(struct head* top)$/;"	f	typeref:typename:void
+revlist	UE20CS202-DataStructures/unit-sorting/unit-1/SingleLinkedList/1_1.c	/^void revlist(struct head* top)$/;"	f	typeref:typename:void
+revlist	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/SingleLinkedList/1_1.c	/^void revlist(struct head* top)$/;"	f	typeref:typename:void
+right	UE20CS202-DataStructures/AVL/1_1.h	/^    struct node* right;$/;"	m	struct:node	typeref:struct:node *
+right	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  struct sp_mat *right;$/;"	m	struct:sp_mat	typeref:struct:sp_mat *
+right	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst.h	/^    struct node *right;$/;"	m	struct:node	typeref:struct:node *
+root	UE20CS202-DataStructures/GraphsList/1_1.h	/^struct root{$/;"	s
+root	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-4/GraphsList/1_1.h	/^struct root{$/;"	s
+root	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-4/GraphsList/1_1.h	/^struct root{$/;"	s
+root	UE20CS202-DataStructures/unit-sorting/unit-4/GraphsList/1_1.h	/^struct root{$/;"	s
+root	UE20CS251-Algorithm/Assignment/Problem_statement_2/bst.h	/^    struct node *root;$/;"	m	struct:bst	typeref:struct:node *
+row	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  int row;$/;"	m	struct:sp_mat	typeref:typename:int
+row	UE20CS202-DataStructures/Assignment/assignment-2/PES2UG20CS237_H.h	/^    int row,col;$/;"	m	struct:head	typeref:typename:int
+search	UE20CS251-Algorithm/04-Count/search/1_1.c	/^int search(int a[], int n,int key){$/;"	f	typeref:typename:int
+search	UE20CS251-Algorithm/Assignment/Problem_statement_1/PES2UG20CS237_heap.c	/^int search(const heap_t *heap, int key, int *count_ptr) {$/;"	f	typeref:typename:int
+search	UE20CS251-Algorithm/Assignment/Problem_statement_2/PES2UG20CS237_bst.c	/^int search(const bst_t *tree, int key, int *count_ptr) {$/;"	f	typeref:typename:int
+search	UE20CS251-Algorithm/Assignment/sample_problem/array.c	/^int search(const Array *arr, int key, int *count_ptr)$/;"	f	typeref:typename:int
+search_with_count	UE20CS251-Algorithm/04-Count/search/1_1.c	/^int search_with_count(int a[],int n,int key,int* count){$/;"	f	typeref:typename:int
+selection_sort	UE20CS251-Algorithm/sorting/1_1.c	/^void selection_sort(int *a, int *b) {$/;"	f	typeref:typename:void
+selectionsort	1-Sorting/Algorithms/selection_sort.cpp	/^void selectionsort(int a[] , int n)$/;"	f	typeref:typename:void
+size	UE20CS202-DataStructures/DEqueue/1_1.h	/^    int size;$/;"	m	struct:head	typeref:typename:int
+size	UE20CS202-DataStructures/QueueLinkedList/1.h	/^    int size;$/;"	m	struct:head	typeref:typename:int
+size	UE20CS202-DataStructures/unit-sorting/unit-1/QueueLinkedList/1.h	/^    int size;$/;"	m	struct:head	typeref:typename:int
+size	UE20CS202-DataStructures/unit-sorting/unit-2/DEqueue/1_1.h	/^    int size;$/;"	m	struct:head	typeref:typename:int
+size	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/QueueLinkedList/1.h	/^    int size;$/;"	m	struct:head	typeref:typename:int
+size	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/DEqueue/1_1.h	/^    int size;$/;"	m	struct:head	typeref:typename:int
+size	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/DEqueue/1_1.h	/^    int size;$/;"	m	struct:head	typeref:typename:int
+size	UE20CS251-Algorithm/Assignment/Problem_statement_1/heap.h	/^    int size;$/;"	m	struct:heap	typeref:typename:int
+source_removal	UE20CS251-Algorithm/05-Topological_Sort/1_1.c	/^void source_removal(int (*a)[1000], int size) {$/;"	f	typeref:typename:void
+sp_mat	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^struct sp_mat {$/;"	s
+span	.vscode/settings.json	/^        "span": "cpp",$/;"	s	object:files.associations
+srev	UE20CS202-DataStructures/InfixToPrefix/main.c	/^void srev(char* a , char* input)$/;"	f	typeref:typename:void
+srev	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/main.c	/^void srev(char* a , char* input)$/;"	f	typeref:typename:void
+stack	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^struct stack{ $/;"	s
+stack	UE20CS202-DataStructures/StackArrays/1.h	/^struct stack{$/;"	s
+stack	UE20CS202-DataStructures/unit-sorting/unit-2/StackArrays/1.h	/^struct stack{$/;"	s
+stack	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackArrays/1.h	/^struct stack{$/;"	s
+stack	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^struct stack{ $/;"	s
+stack	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackArrays/1.h	/^struct stack{$/;"	s
+stack	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^struct stack{ $/;"	s
+stack	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^struct stack{ $/;"	s
+stackpeek	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.c	/^struct vnode *stackpeek(struct stack *st) {$/;"	f	typeref:struct:vnode *
+stackpeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^struct vnode *stackpeek(struct stack *st) {$/;"	f	typeref:struct:vnode *
+stackpeek	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^struct vnode *stackpeek(struct stack *st) {$/;"	f	typeref:struct:vnode *
+stackpeek	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.c	/^struct vnode *stackpeek(struct stack *st) {$/;"	f	typeref:struct:vnode *
+stacktop	UE20CS202-DataStructures/InfixToPostfix/1_1.c	/^char stacktop(struct head* head)$/;"	f	typeref:typename:char
+stacktop	UE20CS202-DataStructures/InfixToPrefix/1_1.c	/^char stacktop(struct head* head)$/;"	f	typeref:typename:char
+stacktop	UE20CS202-DataStructures/PostfixEval/1_1.c	/^char stacktop(struct head* head)$/;"	f	typeref:typename:char
+stacktop	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.c	/^char stacktop(struct head* head)$/;"	f	typeref:typename:char
+stacktop	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.c	/^char stacktop(struct head* head)$/;"	f	typeref:typename:char
+stacktop	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.c	/^char stacktop(struct head* head)$/;"	f	typeref:typename:char
+string	.vscode/settings.json	/^        "string": "cpp",$/;"	s	object:files.associations
+string_view	.vscode/settings.json	/^        "string_view": "cpp",$/;"	s	object:files.associations
+sumofarr	UE20CS251-Algorithm/03-Recursion/basics/main.c	/^int sumofarr(int *a, int i, int n) {$/;"	f	typeref:typename:int
+swap	1-Sorting/Algorithms/bubble_sort.cpp	/^void swap(int a[],int i,int j)$/;"	f	typeref:typename:void
+swap	1-Sorting/Algorithms/insertion_sort.cpp	/^void swap(int a[],int i,int j)$/;"	f	typeref:typename:void
+swap	1-Sorting/Algorithms/quick_sort.cpp	/^void swap(int a[],int i,int j)$/;"	f	typeref:typename:void
+swap	1-Sorting/Algorithms/selection_sort.cpp	/^void swap(int a[],int i,int j)$/;"	f	typeref:typename:void
+swap	1-Sorting/Problems/TMT_Docutment.cpp	/^void swap(int a[],int i,int j)$/;"	f	typeref:typename:void
+swap	UE20CS251-Algorithm/HoarePartition/1_1.c	/^static void swap(int *a, int i, int j) {$/;"	f	typeref:typename:void	file:
+swap	UE20CS251-Algorithm/heaps/1_1.c	/^static void swap(int *x, int *y) {$/;"	f	typeref:typename:void	file:
+swap	problems/8-TwoSets.cpp	/^void swap(ll a[],ll i,ll j)$/;"	f	typeref:typename:void
+swap	problems/k_goodness.cpp	/^void swap(int a[],int i,int j)$/;"	f	typeref:typename:void
+tablesize	UE20CS202-DataStructures/HashTableLinearProbing/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/HashTableOpenHashing/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/HashTableQuadratic/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableLinearProbing/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableOpenHashing/1_1.h	/^#define tablesize /;"	d
+tablesize	UE20CS202-DataStructures/unit-sorting/unit-5/HashTableQuadratic/1_1.h	/^#define tablesize /;"	d
+time_elapsed	UE20CS251-Algorithm/01-TimingProgram/main.c	/^double time_elapsed(struct timespec start, struct timespec end)$/;"	f	typeref:typename:double
+time_elapsed	UE20CS251-Algorithm/01-TimingProgram/main.s	/^time_elapsed:$/;"	l
+time_elapsed	UE20CS251-Algorithm/02-Matrix/class_impl/client.c	/^double time_elapsed(struct timespec start, struct timespec end)$/;"	f	typeref:typename:double
+time_elapsed	UE20CS251-Algorithm/02-Matrix/main.c	/^double time_elapsed(struct timespec start, struct timespec end) {$/;"	f	typeref:typename:double
+time_elapsed	UE20CS251-Algorithm/02-Matrix/submission/IdentityMatrix/IdentityMatrixF.c	/^double time_elapsed(struct timespec start, struct timespec end) {$/;"	f	typeref:typename:double
+time_elapsed	UE20CS251-Algorithm/02-Matrix/submission/MatrixAdd/MatrixAddF.c	/^double time_elapsed(struct timespec start, struct timespec end) {$/;"	f	typeref:typename:double
+time_elapsed	UE20CS251-Algorithm/02-Matrix/submission/MatrixMul/MatrixMulF.c	/^double time_elapsed(struct timespec start, struct timespec end) {$/;"	f	typeref:typename:double
+time_elapsed	UE20CS251-Algorithm/02-Matrix/submission/Time/TimeF.c	/^double time_elapsed(struct timespec start, struct timespec end) {$/;"	f	typeref:typename:double
+top	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^    int top; $/;"	m	struct:stack	typeref:typename:int
+top	UE20CS202-DataStructures/InfixToPostfix/1_1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/InfixToPrefix/1_1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/PostfixEval/1_1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/StackArrays/1.h	/^    int top;$/;"	m	struct:stack	typeref:typename:int
+top	UE20CS202-DataStructures/StackLinkedList/1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPostfix/1_1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/InfixToPrefix/1_1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/PostfixEval/1_1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/StackArrays/1.h	/^    int top;$/;"	m	struct:stack	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/StackLinkedList/1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackArrays/1.h	/^    int top;$/;"	m	struct:stack	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-2/StackLinkedList/1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int top; $/;"	m	struct:stack	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackArrays/1.h	/^    int top;$/;"	m	struct:stack	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-2/StackLinkedList/1.h	/^    int top;$/;"	m	struct:head	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int top; $/;"	m	struct:stack	typeref:typename:int
+top	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int top; $/;"	m	struct:stack	typeref:typename:int
+total_indegree	UE20CS251-Algorithm/05-Topological_Sort/1_1.c	/^static int total_indegree(int a[][1000], int size) {$/;"	f	typeref:typename:int	file:
+tower_of_hanoi	problems/13-Tower_Of_Hanoi.cpp	/^void tower_of_hanoi(int n , string from , string between , string to)$/;"	f	typeref:typename:void
+towerofhanoi	UE20CS251-Algorithm/04-Count/tower_of_hanoi/1_1.c	/^void towerofhanoi(int n,int from,int use,int to){$/;"	f	typeref:typename:void
+towerofhanoi_with_count	UE20CS251-Algorithm/04-Count/tower_of_hanoi/1_1.c	/^void towerofhanoi_with_count(int n,int from,int use,int to,int* ptr_count){$/;"	f	typeref:typename:void
+treesize	UE20CS202-DataStructures/BinarySearchTreeArrays/1_1.h	/^#define treesize /;"	d
+treesize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.h	/^#define treesize /;"	d
+treesize	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.h	/^#define treesize /;"	d
+treesize	UE20CS202-DataStructures/unit-sorting/unit-3/BinarySearchTreeArrays/1_1.h	/^#define treesize /;"	d
+unordered_map	.vscode/settings.json	/^        "unordered_map": "cpp",$/;"	s	object:files.associations
+unordered_set	.vscode/settings.json	/^        "unordered_set": "cpp",$/;"	s	object:files.associations
+valarray	.vscode/settings.json	/^        "valarray": "cpp"$/;"	s	object:files.associations
+value	UE20CS251-Algorithm/JhonsonTrotter/1_1.h	/^  int value;$/;"	m	struct:node	typeref:typename:int
+vector	.vscode/settings.json	/^        "vector": "cpp",$/;"	s	object:files.associations
+visited_down	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  bool visited_down;$/;"	m	struct:sp_mat	typeref:typename:bool
+visited_right	UE20CS202-DataStructures/Assignment/assignment-1/PES2UG20CS237_H.h	/^  bool visited_right;$/;"	m	struct:sp_mat	typeref:typename:bool
+vleft	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^    int vleft; $/;"	m	struct:vnode	typeref:typename:int
+vleft	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int vleft; $/;"	m	struct:vnode	typeref:typename:int
+vleft	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int vleft; $/;"	m	struct:vnode	typeref:typename:int
+vleft	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int vleft; $/;"	m	struct:vnode	typeref:typename:int
+vnode	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^struct vnode{ $/;"	s
+vnode	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^struct vnode{ $/;"	s
+vnode	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^struct vnode{ $/;"	s
+vnode	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^struct vnode{ $/;"	s
+vright	UE20CS202-DataStructures/BSTIterativeTraversal/1_1.h	/^    int vright; $/;"	m	struct:vnode	typeref:typename:int
+vright	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-1/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int vright; $/;"	m	struct:vnode	typeref:typename:int
+vright	UE20CS202-DataStructures/unit-sorting/unit-2/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int vright; $/;"	m	struct:vnode	typeref:typename:int
+vright	UE20CS202-DataStructures/unit-sorting/unit-3/BSTIterativeTraversal/1_1.h	/^    int vright; $/;"	m	struct:vnode	typeref:typename:int
