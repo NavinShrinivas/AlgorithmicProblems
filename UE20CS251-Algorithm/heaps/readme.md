@@ -80,6 +80,8 @@ b) WRT to DS
 This struct hack is veryyy cache frendly!! This can been seen in the programming examples
 We have created a dynamic contiguous memory struct!!
 
+- Height of of Heap Tree : floor(log(n,2))+1
+
 Q1 : A complete binary tree of size n nodes is unique. What does this mean?
   Given a set of numbers, there is only one representation in BT
 Q2 : How many leaves would a complete binary tree of n nodes have? 
