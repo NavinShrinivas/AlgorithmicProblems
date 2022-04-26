@@ -8,7 +8,7 @@
 // evaluated. Feel free to add test cases to this file.
 
 // Fancy colors
-#ifdef __linux__
+#if defined(__linux__) || defined(__APPLE__)
 #define PASSED "\033[1;32mPASSED\033[0m\n"
 #define FAILED "\033[1;31mFAILED\033[0m\n"
 #else
@@ -286,7 +286,8 @@ int main()
 
             if (result == 9 &&
                 ((trip_order[0] == 1 && trip_order[1] == 3 && trip_order[2] == 2) ||
-                (trip_order[0] == 2 && trip_order[1] == 1 && trip_order[2] == 3)))
+                (trip_order[0] == 2 && trip_order[1] == 1 && trip_order[2] == 3) ||
+                (trip_order[0] == 3 && trip_order[1] == 2 && trip_order[2] == 1)))
             {
                 printf("Q8 TestCase 1: " PASSED);
             }
@@ -355,7 +356,7 @@ int main()
         int destinations[] = {0, 2};
         int costs[2] = {INT_MAX, INT_MAX};
 
-        airport_t src = {0, "BLR"};
+        airport_t src = {3, "BLR"};
         q10(n, k, &src, q10_t1_connections, destinations, costs);
 
         if (costs[0] == 3 && costs[1] == 6)

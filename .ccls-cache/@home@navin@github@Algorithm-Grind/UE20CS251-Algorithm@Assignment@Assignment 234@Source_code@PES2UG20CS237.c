@@ -189,6 +189,37 @@ static void prims_MST_finder(int n,const connection_t connections[n][n],connecti
     }
 }
 
+
+static void dijk_greedy(int n,int src,int distances[n],int visited[n],int* visited_so_far,const connection_t connections[n][n]){
+    if(*visited_so_far == n)
+        return;
+    else{
+        int temp = *visited_so_far;
+        *visited_so_far=temp+1;
+        visited[src] = 1;
+        int min_node = 0;
+        int min_node_dist = INT_MAX;
+        for(int i=0;i<n;i++){
+            if(connections[src][i].time != INT_MAX && src!=i)
+            {   
+                int current_distance_to_prev_node = distances[src];
+                int current_distance_to_current_node = distances[i];
+                if(current_distance_to_prev_node+connections[src][i].time < current_distance_to_current_node)
+                    distances[i] = current_distance_to_prev_node+connections[src][i].time; 
+                if(min_node_dist > distances[i]){
+                    min_node = i;
+                    min_node_dist = distances[i];
+                }
+            }
+        }
+        dijk_greedy(n,min_node,distances,visited,visited_so_far,connections);
+        return;
+    }
+}
+
+
+
+
 // YOUR SOLUTIONS BELOW
 
 int q1(int n, const connection_t connections[n][n])
@@ -291,7 +322,100 @@ void q7(int n, const char *pat, int contains[n], const airport_t airports[n])
 
 int q8(int n, int trip_order[n - 1], const connection_t connections[n][n])
 {
-    return 0;
+    //Q8 turned out be challenging, yet i found a loopy way : 
+    //Create new connectiosn with all possible avoidable nodes 
+    //Using this new connections graph create an MST out of it 
+    //Find weight of this MST and we are goodg
+
+    //Creating new connections (all possible avoidances) using for loop : 
+/*
+ *    int dist = INT_MAX;
+ *    int avoid = 0;
+ *    for(int i=0;i<n;i++){
+ *        int temp_dist = 0;
+ *        //say we are avoding 1, we need to avoid all connections from i and to i 
+ *        connection_t avoid_connections[n-1][n-1];
+ *        for(int j=0;j<n;j++){
+ *            for(int k=0;k<n;k++){
+ *                if(j != i && k!=i){
+ *                    //copy to current node 
+ *                    if(j>i && k>i)
+ *                        avoid_connections [j-1][k-1] = connections[j][k];
+ *                    else if(j>i)
+ *                        avoid_connections[j-1][k] = connections[j][k];
+ *                    else if (k>i)
+ *                        avoid_connections[j][k-1] = connections[j][k];
+ *                    else 
+ *                        avoid_connections[j][k] = connections[j][k];
+ *
+ *                }else{
+ *                    //do not copy to new graph 
+ *                    connection_t temp;
+ *                    temp.distance = INT_MAX;
+ *                    temp.time = INT_MAX;
+ *                    avoid_connections[j][k] = temp;
+ *                }
+ *            }
+ *        }
+ *        //After creating new set of connections, need to find MST of this new connection graph
+ *        int visited[n-1];
+ *        for(int j=0;j<n-1;j++)
+ *            visited[j] = 0;
+ *        int visited_so_far = 0;
+ *        connection_t path_conn[n-1][n-1];
+ *        for(int i=0;i<n-1;i++){
+ *            for(int j=0;j<n-1;j++){
+ *                connection_t temp; 
+ *                temp.time = 999999;
+ *                temp.distance = 999999;
+ *                path_conn[i][j] = temp;
+ *            }
+ *        }
+ *        pair_t edges[n-1];
+ *        prims_MST_finder(n-1,avoid_connections,path_conn,0,visited,&visited_so_far,edges);
+ *
+ *        //mst with 2 rows of no outgoing connections can not form a cycle 
+ *        int count = 0;int row = 0;
+ *        for(int j=0;j<n-1;j++){
+ *            int present = 0;
+ *            for(int k=0;k<n-1;k++){
+ *                if(path_conn[j][k].distance != 999999)
+ *                {
+ *                    temp_dist+=path_conn[j][k].distance;
+ *                    present ++;
+ *                }
+ *            }
+ *            if(present == 0)
+ *            {
+ *                count++;
+ *                row = j;
+ *            }
+ *        }
+ *        if(count < 2){
+ *           temp_dist +=  avoid_connections[row][0].distance;
+ *        }
+ *        if(temp_dist < dist)
+ *        {
+ *            avoid = i;
+ *            dist = temp_dist;
+ *        }
+ *        fflush(stdout);
+ *    }
+ *    for(int i=0;i<n;i++){
+ *        if(i>avoid)
+ *            trip_order[i-1] = i;
+ *        else if (i!=avoid)
+ *            trip_order[i]=i;
+ *    }
+ *
+ *    for(int i=0;i<n-1;i++){
+ *        printf("%d",trip_order[i]);
+ *        fflush(stdout);
+ *    }
+ *    printf("%d",dist);
+ *    return dist;
+ */
+     return 0;
 }
 
 int q9(int n, pair_t edges[n - 1], const connection_t connections[n][n])
@@ -306,7 +430,7 @@ int q9(int n, pair_t edges[n - 1], const connection_t connections[n][n])
             connection_t temp; 
             temp.time = 999999;
             temp.distance = 999999;
-            path_conn[n][n] = temp;
+            path_conn[i][i] = temp;
         }
     }
     prims_MST_finder(n,connections,path_conn,0,visited,&visited_so_far,edges);
@@ -316,35 +440,6 @@ int q9(int n, pair_t edges[n - 1], const connection_t connections[n][n])
     }
     return distance;
 }
-
-static void dijk_greedy(int n,int src,int distances[n],int visited[n],int* visited_so_far,const connection_t connections[n][n]){
-    if(*visited_so_far == n)
-        return;
-    else{
-        int temp = *visited_so_far;
-        *visited_so_far=temp+1;
-        visited[src] = 1;
-        int min_node = 0;
-        int min_node_dist = INT_MAX;
-        for(int i=0;i<n;i++){
-            if(connections[src][i].time != INT_MAX && src!=i)
-            {   
-                int current_distance_to_prev_node = distances[src];
-                int current_distance_to_current_node = distances[i];
-                if(current_distance_to_prev_node+connections[src][i].time < current_distance_to_current_node)
-                    distances[i] = current_distance_to_prev_node+connections[src][i].time; 
-                if(min_node_dist > distances[i]){
-                    min_node = i;
-                    min_node_dist = distances[i];
-                }
-            }
-        }
-        dijk_greedy(n,min_node,distances,visited,visited_so_far,connections);
-        return;
-    }
-}
-
-
 void q10(int n, int k, const airport_t *src,
         const connection_t connections[n][n], const int destinations[k],
         int costs[k])
