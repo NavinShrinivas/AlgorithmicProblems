@@ -1,6 +1,5 @@
 #include "header.h"
 #include <limits.h>
-#include <stdio.h>
 
 // ANY STATIC FUNCTIONS ARE UP HERE
 
@@ -310,7 +309,6 @@ void q7(int n, const char *pat, int contains[n], const airport_t airports[n])
         bad_shift_table[i] = m;
 
     bad_shift_calculator(pat,bad_shift_table);
-    fflush(stdout);
     for(int i=0;i<n;i++){
         int res = horsepool_check(bad_shift_table,pat,airports[i].airport_name);
         if(res == 1){
@@ -320,6 +318,18 @@ void q7(int n, const char *pat, int contains[n], const airport_t airports[n])
 
 }
 
+
+static void append_route(int n,int routes[n-1],int k){
+    for(int i=0;i<n-1;i++){
+        if(routes[i] == -1)
+        {
+            routes[i] = k;
+            return;
+        }
+    }
+}
+
+
 int q8(int n, int trip_order[n - 1], const connection_t connections[n][n])
 {
     //Q8 turned out be challenging, yet i found a loopy way : 
@@ -328,94 +338,95 @@ int q8(int n, int trip_order[n - 1], const connection_t connections[n][n])
     //Find weight of this MST and we are goodg
 
     //Creating new connections (all possible avoidances) using for loop : 
-/*
- *    int dist = INT_MAX;
- *    int avoid = 0;
- *    for(int i=0;i<n;i++){
- *        int temp_dist = 0;
- *        //say we are avoding 1, we need to avoid all connections from i and to i 
- *        connection_t avoid_connections[n-1][n-1];
- *        for(int j=0;j<n;j++){
- *            for(int k=0;k<n;k++){
- *                if(j != i && k!=i){
- *                    //copy to current node 
- *                    if(j>i && k>i)
- *                        avoid_connections [j-1][k-1] = connections[j][k];
- *                    else if(j>i)
- *                        avoid_connections[j-1][k] = connections[j][k];
- *                    else if (k>i)
- *                        avoid_connections[j][k-1] = connections[j][k];
- *                    else 
- *                        avoid_connections[j][k] = connections[j][k];
- *
- *                }else{
- *                    //do not copy to new graph 
- *                    connection_t temp;
- *                    temp.distance = INT_MAX;
- *                    temp.time = INT_MAX;
- *                    avoid_connections[j][k] = temp;
- *                }
- *            }
- *        }
- *        //After creating new set of connections, need to find MST of this new connection graph
- *        int visited[n-1];
- *        for(int j=0;j<n-1;j++)
- *            visited[j] = 0;
- *        int visited_so_far = 0;
- *        connection_t path_conn[n-1][n-1];
- *        for(int i=0;i<n-1;i++){
- *            for(int j=0;j<n-1;j++){
- *                connection_t temp; 
- *                temp.time = 999999;
- *                temp.distance = 999999;
- *                path_conn[i][j] = temp;
- *            }
- *        }
- *        pair_t edges[n-1];
- *        prims_MST_finder(n-1,avoid_connections,path_conn,0,visited,&visited_so_far,edges);
- *
- *        //mst with 2 rows of no outgoing connections can not form a cycle 
- *        int count = 0;int row = 0;
- *        for(int j=0;j<n-1;j++){
- *            int present = 0;
- *            for(int k=0;k<n-1;k++){
- *                if(path_conn[j][k].distance != 999999)
- *                {
- *                    temp_dist+=path_conn[j][k].distance;
- *                    present ++;
- *                }
- *            }
- *            if(present == 0)
- *            {
- *                count++;
- *                row = j;
- *            }
- *        }
- *        if(count < 2){
- *           temp_dist +=  avoid_connections[row][0].distance;
- *        }
- *        if(temp_dist < dist)
- *        {
- *            avoid = i;
- *            dist = temp_dist;
- *        }
- *        fflush(stdout);
- *    }
- *    for(int i=0;i<n;i++){
- *        if(i>avoid)
- *            trip_order[i-1] = i;
- *        else if (i!=avoid)
- *            trip_order[i]=i;
- *    }
- *
- *    for(int i=0;i<n-1;i++){
- *        printf("%d",trip_order[i]);
- *        fflush(stdout);
- *    }
- *    printf("%d",dist);
- *    return dist;
- */
-     return 0;
+    int dist = INT_MAX;
+    for(int i=0;i<n;i++){
+        int temp_dist = 0;
+        //say we are avoding 1, we need to avoid all connections from i and to i 
+        connection_t avoid_connections[n-1][n-1];
+        for(int j=0;j<n;j++){
+            for(int k=0;k<n;k++){
+                if(j != i && k!=i){
+                    //copy to current node 
+                    if(j>i && k>i)
+                        avoid_connections [j-1][k-1] = connections[j][k];
+                    else if(j>i)
+                        avoid_connections[j-1][k] = connections[j][k];
+                    else if (k>i)
+                        avoid_connections[j][k-1] = connections[j][k];
+                    else 
+                        avoid_connections[j][k] = connections[j][k];
+
+                }else{
+                    //do not copy to new graph 
+                    connection_t temp;
+                    temp.distance = INT_MAX;
+                    temp.time = INT_MAX;
+                    avoid_connections[j][k] = temp;
+                }
+            }
+        }
+        //After creating new set of connections, need to find MST of this new connection graph
+        int visited[n-1];
+        for(int j=0;j<n-1;j++)
+            visited[j] = 0;
+        int visited_so_far = 0;
+        connection_t path_conn[n-1][n-1];
+        for(int i=0;i<n-1;i++){
+            for(int j=0;j<n-1;j++){
+                connection_t temp; 
+                temp.time = 999999;
+                temp.distance = 999999;
+                path_conn[i][j] = temp;
+            }
+        }
+        pair_t edges[n-1];
+        prims_MST_finder(n-1,avoid_connections,path_conn,0,visited,&visited_so_far,edges);
+
+        //mst with 2 rows of no outgoing connections can not form a cycle 
+        int count = 0;int row = 0;
+        for(int j=0;j<n-1;j++){
+            int present = 0;
+            for(int k=0;k<n-1;k++){
+                if(path_conn[j][k].distance != 999999)
+                {
+                    temp_dist+=path_conn[j][k].distance;
+                    present ++;
+                }
+            }
+            if(present == 0)
+            {
+                count++;
+                row = j;
+            }
+        }
+        //If only 3 nodes and 1 avoided and MST has only 1 node then simply quit
+        if(n == 3 && count == 1){
+            return -1;
+        }
+
+        for(int j=0;j<n-1;j++){
+            for(int k=0;k<n-1;k++){
+                if(path_conn[j][k].distance != 999999){
+                    if(k>=i)
+                        append_route(n,trip_order,k+1);
+                    else
+                        append_route(n,trip_order,k);
+                }
+            }
+        }
+        if(count < 2){
+            temp_dist +=  avoid_connections[row][0].distance;
+            path_conn[row][0].distance = avoid_connections[row][0].distance;
+            append_route(n,trip_order,1);
+
+        }
+        if(temp_dist < dist)
+        {
+            dist = temp_dist;
+
+        }
+    }
+    return dist;
 }
 
 int q9(int n, pair_t edges[n - 1], const connection_t connections[n][n])
