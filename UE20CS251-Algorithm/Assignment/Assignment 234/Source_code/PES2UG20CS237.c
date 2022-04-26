@@ -216,6 +216,15 @@ static void dijk_greedy(int n,int src,int distances[n],int visited[n],int* visit
     }
 }
 
+static void append_route(int n,int routes[n-1],int k){
+    for(int i=0;i<n-1;i++){
+        if(routes[i] == -1)
+        {
+            routes[i] = k;
+            return;
+        }
+    }
+}
 
 
 
@@ -316,17 +325,6 @@ void q7(int n, const char *pat, int contains[n], const airport_t airports[n])
         }
     }
 
-}
-
-
-static void append_route(int n,int routes[n-1],int k){
-    for(int i=0;i<n-1;i++){
-        if(routes[i] == -1)
-        {
-            routes[i] = k;
-            return;
-        }
-    }
 }
 
 
